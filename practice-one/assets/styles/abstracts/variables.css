@@ -1,0 +1,21 @@
+:root {
+  /* Color */
+  --primary-color: #35414b;
+  --secondary-color: #4e5a65;
+  --white-color: #ffffff;
+  --purple-color: #794CFF;
+
+  /* Background-color */
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #fbfafe;
+  --third-background-color: #794CFF;
+
+  /* Font-large */
+  --huge: 64px;
+  --biggest: 40px;
+  --large: 24px;
+  --almost-small: 18px;
+  --small: 16px;
+  --smaller: 13px;
+  --smallest: 11px;
+}
