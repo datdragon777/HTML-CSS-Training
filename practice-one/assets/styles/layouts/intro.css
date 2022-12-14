@@ -1,4 +1,4 @@
-.intro--wrapper {
+.intro__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
   display: flex;
 }
 
-.intro__discount__save {
+.intro__save {
   padding: 8px 16px;
   font-family: "Inter-medium";
   font-size: var(--small);
@@ -19,7 +19,7 @@
   border-radius: 100px;
 }
 
-.intro__discount__get-account {
+.intro__get-account {
   display: flex;
   position: relative;
   left: -32px;
@@ -30,7 +30,7 @@
   border-radius: 0px 100px 100px 0px;
 }
 
-.intro__discount__get-account p {
+.intro__get-account p {
   padding: 0 4.64px 0 40px;
   font-family: "Inter-regular";
   font-size: var(--small);
@@ -56,19 +56,19 @@
   color: var(--secondary-color);
 }
 
-.intro__signup-free__email {
+.intro__email {
   font-family: "Inter-regular";
   font-size: var(--small);
   line-height: 16px;
   padding: 18px 24px;
   width: 272px;
   background: #ffffff;
-  border: 1px solid #e1e5ea;
+  border: var(--border);
   border-radius: 4px 0px 0px 4px;
   color: #97a5b5;
 }
 
-.intro__signup-free__submit {
+.intro__submit {
   font-family: "Inter-medium";
   position: relative;
   left: -7px;
@@ -91,9 +91,10 @@
 
 .intro__believed-team {
     width: 100%;
+    margin-bottom: 100.89px;
 }
 
-.intro__believed-team__text {
+.intro__believed-text {
     font-family: "Inter-regular";
     font-size: var(--small);
     line-height: 16px;
@@ -103,12 +104,12 @@
     margin-bottom: 27px;
 }
 
-.intro__believed-team__text span {
+.intro__believed-text span {
     font-weight: 900;
 }
 
-.intro__believed-team__logos {
+.intro__believed-logos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }

@@ -1,0 +1,58 @@
+.widget__chatbox {
+  background-color: var(--white-background-color);
+  border: var(--border);
+  border-radius: 4px;
+  padding: 32px;
+  position: absolute;
+  bottom: -8px;
+  right: -24px;
+}
+
+.widget__user {
+  display: flex;
+}
+
+.widget__image {
+  margin-right: 10px;
+}
+
+.widget__role {
+  font-family: "Inter-regular";
+  font-size: var(--smallest);
+  line-height: 11px;
+  color: var(--secondary-color);
+}
+
+.widget__textarea {
+  padding: 16px 37px 119px 16px;
+  border: 1px solid #e1e5ea;
+  border-radius: 4px;
+  margin: 16px 0;
+}
+
+.widget__textarea p {
+  width: 246px;
+  font-family: "Inter-regular";
+  font-size: var(--smaller);
+  line-height: 20px;
+  color: var(--secondary-color);
+}
+
+.widget__textarea p span {
+  color: #3b7ff6;
+}
+
+.widget__submit {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.widget__send-btn {
+  padding: 14px 29px 15px;
+  background: #3b7ff6;
+  font-family: "Inter-medium";
+  font-size: var(--smaller);
+  line-height: 13px;
+  color: var(--white-color);
+  border-radius: 4px;
+}

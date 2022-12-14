@@ -1,0 +1,112 @@
+.widget__timeline {
+  width: 330px;
+  height: 435px;
+  background-color: var(--white-background-color);
+  border: var(--border);
+  border-radius: 4px;
+  padding: 32px 31px 0 32px;
+}
+
+.widget__title {
+  font-family: "Inter-medium";
+  font-size: var(--small);
+  line-height: 16px;
+  color: var(--secondary-color);
+  margin-bottom: 32px;
+}
+
+.widget__message-sets--first {
+  margin-bottom: 8px;
+}
+
+.widget__status {
+  display: flex;
+}
+
+.widget__icon {
+  height: 29px;
+  width: 29px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.widget__icon--yellow-background {
+  background: #fdf8e8;
+}
+.widget__icon--green-background {
+  background: #e5f8ed;
+}
+
+.widget__name {
+  font-family: "Inter-medium";
+  font-size: var(--smaller);
+  line-height: 13px;
+  color: var(--secondary-color);
+  margin-bottom: 4px;
+}
+
+.widget__time-sent {
+  font-family: "Inter-regular";
+  font-size: var(--smallest);
+  line-height: 11px;
+  color: var(--secondary-color);
+}
+
+.widget__message-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.widget__message-container--first {
+  height: 255px;
+}
+
+.widget__message-container--second {
+  height: 42px;
+}
+
+.widget__vertical-line {
+  border: 0.5px solid #e1e5ea;
+  margin: 0 30px 0 15px;
+}
+
+.widget__vertical-line--first {
+  height: 255px;
+}
+
+.widget__vertical-line--second {
+  height: 42px;
+}
+
+.widget__message-box {
+  margin-top: 7px;
+}
+
+.widget__message-item {
+  padding: 16px;
+  margin-bottom: 16px;
+  border: var(--border);
+  border-radius: 4px;
+}
+
+.widget__message-item--text {
+  font-family: "Inter-regular";
+  font-size: var(--smaller);
+  line-height: 16px;
+  color: var(--secondary-color);
+}
+
+.widget__message-box span {
+  color: #3b7ff6;
+}
+
+.widget__last-meeting {
+  padding: 16px 16px 11px 16px;
+  border: 1px solid #e1e5ea;
+  border-bottom: 0;
+  border-radius: 4px 4px 0 0;
+}

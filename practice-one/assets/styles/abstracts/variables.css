@@ -9,6 +9,7 @@
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #fbfafe;
   --third-background-color: #794CFF;
+  --white-background-color: #ffffff;
 
   /* Font-large */
   --huge: 64px;
@@ -18,4 +19,8 @@
   --small: 16px;
   --smaller: 13px;
   --smallest: 11px;
+
+  /* Border */
+  --border: 1px solid #E1E5EA;
 }
+

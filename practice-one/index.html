@@ -10,80 +10,224 @@
   <body>
     <!-- Start Header -->
     <header class="header header--wrapper">
-      <nav class="header__list container">
-        <div class="header__list__logo">
-          <a href="#">team<span>.</span>flow</a>
-        </div>
-        <ul class="header__nav">
-          <li class="header__nav__item">
-            <a href="#">How it Works</a>
-            <img src="./assets/icons/arrow-down-icon.svg" alt="" />
-          </li>
-          <li class="header__nav__item">
-            <a href="#">Product</a>
-            <img src="./assets/icons/arrow-down-icon.svg" alt="" />
-          </li>
-          <li class="header__nav__item">
-            <a href="#">Pricing</a>
-          </li>
-          <li class="header__nav__item">
-            <a href="#">Resources</a>
-            <img src="./assets/icons/arrow-down-icon.svg" alt="" />
-          </li>
-        </ul>
-        <div class="header__list__option">
-          <a href="#" class="header__list__option__login">Log in</a>
-          <div class="header__list__option__free">
-            <a href="#">Get started free</a>
+      <div class="container">
+        <nav class="header__list">
+          <div class="header__logo">
+            <a href="#">team<span>.</span>flow</a>
           </div>
-        </div>
-      </nav>
+          <ul class="header__nav">
+            <li class="header__nav-item">
+              <a href="#">How it Works</a>
+              <img src="./assets/icons/arrow-down-icon.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <a href="#">Product</a>
+              <img src="./assets/icons/arrow-down-icon.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#">Resources</a>
+              <img src="./assets/icons/arrow-down-icon.svg" alt="" />
+            </li>
+          </ul>
+          <div class="header__option">
+            <a href="#" class="header__login">Log in</a>
+            <div class="header__free">
+              <a href="#">Get started free</a>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- End Header -->
-
     <main class="main-content">
       <!-- Start Introduce Layout -->
-      <div class="intro intro--wrapper container">
-        <div class="intro__discount mb-24">
-          <div class="intro__discount__save"><p>Save 90%</p></div>
-          <div class="intro__discount__get-account">
-            <p>Get account of $59</p>
-            <img src="./assets/icons/arrow-right-icon.svg" alt="" />
+      <div class="intro">
+        <div class="container">
+          <div class="intro__wrapper">
+            <div class="intro__discount mb-24">
+              <div class="intro__save"><p>Save 90%</p></div>
+              <div class="intro__get-account">
+                <p>Get account of $59</p>
+                <img src="./assets/icons/arrow-right-icon.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="intro__title mb-24">
+              Manage the team everyone wants to be on
+            </div>
+
+            <div class="intro__description mb-24">
+              Simple platform that lets you master what great managers do best,
+              as develop trust, collaborate, and drive team performance.
+            </div>
+
+            <form class="intro__signup-free">
+              <input
+                type="email"
+                placeholder="name@yourcompany.com"
+                class="intro__email"
+              />
+              <button type="submit" class="intro__submit">Try it free</button>
+            </form>
+
+            <figure class="intro__main-image">
+              <img src="./assets/images/main-img.png" alt="overview chart" />
+            </figure>
+
+            <div class="intro__believed-team">
+              <p class="intro__believed-text">
+                trusted by over <span>10.000+</span> world's best teams
+              </p>
+              <figure class="intro__believed-logos">
+                <img src="./assets/icons/google-icon.svg" alt="google" />
+                <img src="./assets/icons/airbnb-icon.svg" alt="airbnb" />
+                <img src="./assets/icons/facebook-icon.svg" alt="facebook" />
+                <img src="./assets/icons/hubspot-icon.svg" alt="hubspot" />
+                <img src="./assets/icons/slack-icon.svg" alt="slack" />
+              </figure>
+            </div>
           </div>
         </div>
-
-        <div class="intro__title mb-24">
-          Manage the team everyone wants to be on
-        </div>
-
-        <div class="intro__description mb-24">
-            Simple platform that lets you master what great managers do best, as
-            develop trust, collaborate, and drive team performance.
-        </div>
-
-        <form class="intro__signup-free">
-          <input type="email" placeholder="name@yourcompany.com" class="intro__signup-free__email" />
-          <button type="submit" class="intro__signup-free__submit">Try it free</button>
-        </form>
-
-        <figure class="intro__main-image">
-          <img src="./assets/images/main-img.png" alt="overview chart">
-        </figure>
-
-        <div class="intro__believed-team">
-            <p class="intro__believed-team__text">trusted by over <span>10.000+</span> world's best teams</p>
-            <figure class="intro__believed-team__logos">
-                <img src="./assets/icons/google-icon.svg" alt="google">
-                <img src="./assets/icons/airbnb-icon.svg" alt="airbnb">
-                <img src="./assets/icons/facebook-icon.svg" alt="facebook">
-                <img src="./assets/icons/hubspot-icon.svg" alt="hubspot">
-                <img src="./assets/icons/slack-icon.svg" alt="slack">
-            </figure>
-        </div>
-
-
       </div>
       <!-- End Introduce Layout -->
+
+      <!-- Start Widget Layout -->
+      <section class="widget background-gray">
+        <div class="container">
+          <div class="widget__wrapper">
+            <div class="widget__notification">
+              <div class="widget__timeline">
+                <div class="widget__title">Timeline</div>
+                <div class="widget__message-sets--first">
+                  <div class="widget__status">
+                    <div class="widget__icon widget__icon--yellow-background">
+                      <img
+                        src="./assets/icons/yellow-message-icon.svg"
+                        alt="yellow-message-icon"
+                      />
+                    </div>
+                    <div class="widget__info">
+                      <div class="widget__name">Benchmarking</div>
+                      <div class="widget__time-sent">
+                        sent to Densise on 06/02/2020
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="widget__message-container widget__message-container--first"
+                  >
+                    <div
+                      class="widget__vertical-line widget__vertical-line--first"
+                    ></div>
+                    <div class="widget__message-box">
+                      <div
+                        class="widget__message-item widget__message-item--text"
+                      >
+                        <span>@Densise</span> Can we add three more analyses?
+                      </div>
+                      <div
+                        class="widget__message-item widget__message-item--text"
+                      >
+                        <span>@Densise</span> Create a presentation with
+                        comparison tables
+                      </div>
+                      <div
+                        class="widget__message-item widget__message-item--text"
+                      >
+                        <span>@Densise</span> Let's set up a meeting to present
+                        to the product manager.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget__message-sets--second">
+                  <div class="widget__status">
+                    <div class="widget__icon widget__icon--green-background">
+                      <img
+                        src="./assets/icons/clock-meeting-icon.svg"
+                        alt="yellow-message-icon"
+                      />
+                    </div>
+                    <div class="widget__info">
+                      <div class="widget__name">Meeting reminder</div>
+                      <div class="widget__time-sent">
+                        sent to Denise on 06/02/2020
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="widget__message-container widget__message-container--second"
+                  >
+                    <div
+                      class="widget__vertical-line widget__vertical-line--second"
+                    ></div>
+                    <div class="widget__message-box widget__message-item--text">
+                      <div class="widget__last-meeting">
+                        <span>@Densise</span> scheduling this conversation
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="widget__chatbox">
+                <div class="widget__user">
+                  <figure class="widget__image">
+                    <img
+                      src="./assets/images/denise-silva.jpg"
+                      alt="denise-silva"
+                    />
+                  </figure>
+                  <div class="widget__info">
+                    <div class="widget__name">Denise Silva</div>
+                    <div class="widget__role">Product Designer</div>
+                  </div>
+                </div>
+                <div class="widget__textarea">
+                  <p><span>@Peter</span> Thanks for review!</p>
+                  <p>I will review the comments and submit a new project.</p>
+                </div>
+                <div class="widget__submit">
+                  <div class="widget__send-btn">Send</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="widget__solution-list">
+              <div class="widget__item">
+                <div class="widget__solution-name">Survey your team</div>
+                <div class="widget-description">
+                  Powerful questions that get to the heart of how team members
+                  really feel.
+                </div>
+              </div>
+              <div class="widget__item">
+                <div class="widget__solution-name">Resolve issues quickly</div>
+                <div class="widget-description">
+                  Anonymous messaging that connects managers and employees.
+                </div>
+              </div>
+              <div class="widget__item">
+                <div class="widget__solution-name">Plan your 1-on-1s</div>
+                <div class="widget-description">
+                  Plan meetings together and give a stake employees and teams.
+                </div>
+              </div>
+              <div class="widget__item">
+                <div class="widget__solution-name">Track your progress</div>
+                <div class="widget-description">
+                  Easy-to-read reports and sharable results help managers and
+                  teams.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Widget Layout -->
     </main>
   </body>
 </html>
