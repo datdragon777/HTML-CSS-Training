@@ -68,6 +68,10 @@
   color: #97a5b5;
 }
 
+.intro__email:focus {
+  outline: none;
+}
+
 .intro__submit {
   font-family: "Inter-medium";
   position: relative;
