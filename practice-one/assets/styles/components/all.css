@@ -4,4 +4,8 @@
 @import url(widget-timeline.css);
 @import url(widget-chatbox.css);
 @import url(background-gray.css);
+@import url(background-dark.css);
 @import url(title-layout.css);
+@import url(hours-worked-chart.css);
+@import url(launched-projects-chart.css);
+@import url(background-header.css);

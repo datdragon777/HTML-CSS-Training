@@ -84,6 +84,7 @@
   font-size: var(--small);
   line-height: 16px;
   color: var(--white-color);
+  cursor: pointer;
 }
 
 .intro__main-image img{

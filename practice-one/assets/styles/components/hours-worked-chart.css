@@ -1,0 +1,73 @@
+.data__hours-worked-chart {
+  position: relative;
+  width: 448.55px;
+  height: 331.21px;
+  padding: 24.16px 24.16px 0px 24.16px;
+  border: var(--border);
+  border-radius: 4px;
+  background-color: var(--white-background-color);
+}
+
+.data__hwc-title {
+  margin-bottom: 16px;
+  font-family: "Inter-medium";
+  font-size: var(--small);
+  line-height: 16px;
+  color: var(--primary-color);
+}
+
+.data__milestone-of-user {
+  width: 100%;
+  padding: 18px 0 18px 0;
+  border-bottom: 0.5px dashed #e1e5ea;
+}
+
+.data__milestone-of-user,
+.data__month {
+  font-family: "Inter-regular";
+  font-size: var(--smaller);
+  line-height: 13px;
+  color: var(--secondary-color);
+}
+
+.data__month-axis {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 83px;
+  left: 73px;
+}
+
+.data__hour-item {
+  margin-right: 41.84px;
+  text-align: center;
+}
+
+.data__column {
+  width: 25.16px;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 11.76px;
+}
+
+.data__column--jan {
+  height: 165px;
+  background-color: #508ef5;
+}
+
+.data__column--feb {
+  height: 223.25px;
+  background-color: #ee726f;
+}
+
+.data__column--mar {
+  height: 81.75px;
+  background-color: #f8cd5f;
+}
+.data__column--apr {
+  height: 51.36px;
+  background-color: #f4af59;
+}
+.data__column--may {
+  height: 30.4px;
+  background-color: #ea8d6a;
+}

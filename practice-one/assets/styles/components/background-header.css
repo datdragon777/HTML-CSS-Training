@@ -1,0 +1,12 @@
+.header__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__background-img {
+  z-index: -99;
+  position: absolute;
+  top:0;
+  margin: auto auto;;
+}
