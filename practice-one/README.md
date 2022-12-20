@@ -5,7 +5,7 @@
 - Overview: 
   - Introduce: 
     - Simple platform that lets you master what great managers do best, as develop trust, collaborate, and drive team performance.
-  - Design: [Figma]([http://~](https://www.figma.com/file/EU7YtWp4zSAzwJ67VVNv3k/Web%2FMobile-%E2%80%94-Template-Website-(Community)?node-id=2%3A2&t=EEKAaN3JI6ozviDy-0))
+  - Design: [Figma](https://www.figma.com/file/EU7YtWp4zSAzwJ67VVNv3k/Web%2FMobile-%E2%80%94-Template-Website-(Community)?node-id=2%3A2&t=EEKAaN3JI6ozviDy-0)
   - Deploy: 
 - Target: 
   - Understand how to analyze design 
