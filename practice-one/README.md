@@ -2,13 +2,13 @@
 ## Practice one
 - Project:
   - "Introduce dashboard app" landing page
-- Overview: 
-  - Introduce: 
+- Overview:
+  - Introduce:
     - Simple platform that lets you master what great managers do best, as develop trust, collaborate, and drive team performance.
-  - Design: [Figma]([http://~](https://www.figma.com/file/EU7YtWp4zSAzwJ67VVNv3k/Web%2FMobile-%E2%80%94-Template-Website-(Community)?node-id=2%3A2&t=EEKAaN3JI6ozviDy-0))
-  - Deploy: 
-- Target: 
-  - Understand how to analyze design 
+  - Design: [Figma](https://www.figma.com/file/EU7YtWp4zSAzwJ67VVNv3k/Web%2FMobile-%E2%80%94-Template-Website-(Community)?node-id=2%3A2&t=EEKAaN3JI6ozviDy-0)
+  - Deploy:
+- Target:
+  - Understand how to analyze design
   - Understand HTML/CSS properties and use them correctly
   - Naming with BEM
   - Apply Flexbox
@@ -19,7 +19,7 @@
   - Supported browser: Chrome lasted
 - Getting started:
   - Step 01: Clone repository with HTTPS:
-    - `https://github.com/datdragon777/HTML-CSS-Training.git`  
+    - `git clone https://github.com/datdragon777/HTML-CSS-Training.git`
   - Step 02: Move to folder which just cloned in your computer
   - Step 03: Open terminal > `npm install` or `yarn install`
   - Step 04: Run `npm start` or `yarn start`
