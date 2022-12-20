@@ -19,7 +19,7 @@
   - Supported browser: Chrome lasted
 - Getting started:
   - Step 01: Clone repository with HTTPS:
-    - `https://github.com/datdragon777/HTML-CSS-Training.git`  
+    - `git clone https://github.com/datdragon777/HTML-CSS-Training.git`  
   - Step 02: Move to folder which just cloned in your computer
   - Step 03: Open terminal > `npm install` or `yarn install`
   - Step 04: Run `npm start` or `yarn start`
