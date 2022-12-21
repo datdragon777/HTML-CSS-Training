@@ -10,11 +10,11 @@
 }
 
 .data__lpc-title {
+  margin-bottom: 57px;
   font-family: "Inter-medium";
-  font-size: var(--almost-small);
+  font-size: var(--small-x);
   line-height: 24px;
   color: var(--primary-color);
-  margin-bottom: 57px;
 }
 
 .data__number-of-project {
@@ -23,12 +23,12 @@
 }
 
 .data__project-item {
-  height: 100px;
   width: 17px;
-  position: relative;
-  background-color: #f3f5f9;
+  height: 100px;
   margin-right: 21px;
+  position: relative;
   border-radius: 4px 4px 0 0;
+  background-color: #f3f5f9;
 }
 
 .data__project-item:last-child {

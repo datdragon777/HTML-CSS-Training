@@ -1,0 +1,127 @@
+.hero__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero__discount,
+.hero__title,
+.hero__description {
+  margin-bottom: 24px;
+}
+
+.hero__discount {
+  display: flex;
+}
+
+.hero__save {
+  padding: 8px 16px;
+  font-family: "Inter-medium";
+  font-size: var(--small-xx);
+  line-height: 16px;
+  color: var(--white-color);
+  background-color: #81c43b;
+  border-radius: 100px;
+}
+
+.hero__get-account {
+  padding: 8px 0px;
+  width: 209px;
+  position: relative;
+  left: -32px;
+  z-index: -1;
+  display: flex;
+  background: #f2f9eb;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.hero__get-account p {
+  padding: 0 4.64px 0 40px;
+  font-family: "Inter-regular";
+  font-size: var(--small-xx);
+  line-height: 16px;
+  color: var(--primary-color);
+}
+
+.hero__title {
+  width: 766px;
+  font-family: "Inter-bold";
+  font-size: var(--big-xxx);
+  line-height: 72px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.hero__description {
+  width: 506px;
+  font-family: "Inter-regular";
+  font-size: var(--small-xx);
+  line-height: 150%;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.hero__email {
+  width: 272px;
+  padding: 18px 24px;
+  font-family: "Inter-regular";
+  font-size: var(--small-xx);
+  line-height: 16px;
+  color: #97a5b5;
+  background: #ffffff;
+  border: var(--border);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.hero__email:focus {
+  outline: none;
+}
+
+.hero__submit {
+  height: 58px;
+  padding: 18px 45px;
+  position: relative;
+  left: -7px;
+  background: var(--third-background-color);
+  border: 1px solid var(--third-background-color);
+  cursor: pointer;
+}
+
+.hero__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__body .hero__bg-image {
+  width: 920px;
+  height: 654.29px;
+  margin: 48px 0 100.71px 0;
+  box-shadow: 0px 0px 48px -8px rgba(29, 40, 48, 0.18);
+}
+
+.hero__footer {
+  width: 100%;
+  margin-bottom: 100.89px;
+}
+
+.hero__trust {
+  margin-bottom: 27px;
+  font-family: "Inter-regular";
+  font-size: var(--small-xx);
+  line-height: 16px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__trust span {
+  font-weight: 900;
+}
+
+.hero__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+.btn {
+  font-family: "Inter-medium";
+  font-size: var(--small-xx);
+  line-height: 16px;
+  border-radius: 4px;
+  color: var(--white-color);
+}
+
+.btn--purple-color {
+  color: var(--text-btn-color);
+}
+
+.btn--border-radius {
+ border-radius: 0 4px 4px 0;
+}
+
+.btn--fs-lh {
+  font-size: var(--small-xxx);
+  line-height: 13px;
+}

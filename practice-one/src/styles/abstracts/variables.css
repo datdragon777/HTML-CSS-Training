@@ -3,25 +3,25 @@
   --primary-color: #35414b;
   --secondary-color: #4e5a65;
   --white-color: #ffffff;
-  --purple-color: #794CFF;
+  --text-btn-color: #794cff;
 
   /* Background-color */
-  --primary-background-color: #e5e5e5;
+  --primary-background-color: transparent;
   --secondary-background-color: #fbfafe;
-  --third-background-color: #794CFF;
+  --third-background-color: #794cff;
   --white-background-color: #ffffff;
   --dark-background-color: #1d2830;
 
   /* Font-large */
-  --huge: 64px;
-  --biggest: 40px;
-  --large: 24px;
-  --almost-small: 18px;
-  --small: 16px;
-  --smaller: 13px;
-  --smallest: 11px;
+  --big-xxx: 64px;
+  --big-xx: 40px;
+  --big-x: 24px;
+  --small-x: 18px;
+  --small-xx: 16px;
+  --small-xxx: 13px;
+  --small-xxxx: 11px;
 
   /* Border */
-  --border: 1px solid #E1E5EA;
+  --border: 1px solid #e1e5ea;
 }
 

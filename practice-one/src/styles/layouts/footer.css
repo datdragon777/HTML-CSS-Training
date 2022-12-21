@@ -10,7 +10,7 @@
 
 .footer__info-title,
 .footer__info-item {
-  font-size: var(--small);
+  font-size: var(--small-xx);
   line-height: 16px;
   color: var(--white-color);
 }
@@ -20,8 +20,8 @@
 }
 
 .footer__info-item {
-  font-family: "Inter-regular";
   margin-top: 24px;
+  font-family: "Inter-regular";
 }
 
 .footer__info-item--mt17 {
@@ -37,8 +37,8 @@
 .footer__terms {
   padding: 24px 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__terms-text {
@@ -53,12 +53,12 @@
 }
 
 .footer__logo-item {
-  height: 32px;
   width: 32px;
-  border-radius: 100%;
+  height: 32px;
+  margin-left: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-left: 24px;
+  border-radius: 100%;
 }

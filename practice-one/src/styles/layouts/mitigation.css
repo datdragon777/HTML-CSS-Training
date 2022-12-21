@@ -3,8 +3,8 @@
 }
 
 .mitigation__title {
-  text-align: center;
   margin-bottom: 56px;
+  text-align: center;
 }
 
 .mitigation__list {
@@ -13,7 +13,7 @@
   flex-wrap: wrap;
 }
 
-.mitigation__list__item {
+.mitigation__item {
   width: 316px;
   margin-bottom: 80px;
   display: flex;
@@ -29,41 +29,43 @@
   border-radius: 100%;
 }
 
-.mitigation__icon--background-yellow {
-  background-color: #fef6ee;
-}
-
-.mitigation__icon--background-green {
-  background-color: #e8fafa;
-}
-
-.mitigation__icon--background-purple {
-  background-color: #f7ebf9;
-}
-
-.mitigation__icon--background-pink {
-  background-color: #ffeff3;
-}
-
-.mitigation__icon--background-blue {
-  background-color: #ede8f7;
-}
-
-.mitigation__icon--background-orange {
-  background-color: #fef5ec;
-}
-
 .mitigation__sub-title {
+  margin: 24px 0 8px 0;
   font-family: "Inter-semibold";
-  font-size: var(--almost-small);
+  font-size: var(--small-x);
   line-height: 18px;
   color: var(--primary-color);
-  margin: 24px 0 8px 0;
 }
 
 .mitigation__description {
   font-family: "Inter-regular";
-  font-size: var(--small);
+  font-size: var(--small-xx);
   line-height: 24px;
   color: var(--secondary-color);
 }
+
+.background-surveys-reports {
+  background-color: #fef6ee;
+}
+
+.background-collaborative {
+  background-color: #e8fafa;
+}
+
+.background-learning-center {
+  background-color: #f7ebf9;
+}
+
+.background-anonymous-messaging {
+  background-color: #ffeff3;
+}
+
+.background-conversation-engine {
+  background-color: #ede8f7;
+}
+
+.background-exclusives-manager {
+  background-color: #fef5ec;
+}
+
+

@@ -20,8 +20,8 @@
 }
 
 .widget__item {
-  border-left: 8px solid transparent;
   padding: 26px 32px 26px 24px;
+  border-left: 8px solid transparent;
   border-bottom: 1px solid #f0ebfa;
 }
 
@@ -30,25 +30,26 @@
 }
 
 .widget__item:hover {
-  cursor: default;
-  border-left: 8px solid var(--purple-color);
-  background-color: #f6f3fc;
-  border-radius: 0 8px 8px 0;
+  border-left: 8px solid var(--third-background-color);
   border-bottom: 1px solid transparent;;
+  border-radius: 0 8px 8px 0;
+  background-color: #f6f3fc;
+  cursor: default;
 }
 
 .widget__solution-name {
+  margin-bottom: 10px;
   font-family: "Inter-semibold";
-  font-size: var(--almost-small);
+  font-size: var(--small-x);
   line-height: 18px;
   color: var(--primary-color);
-  margin-bottom: 10px;
 }
 
 .widget-description {
+  width: 308px;
   font-family: "Inter-regular";
-  font-size: var(--small);
+  font-size: var(--small-xx);
   line-height: 24px;
   color: var(--secondary-color);
-  width: 308px;
 }
+

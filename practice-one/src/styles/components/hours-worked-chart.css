@@ -1,8 +1,8 @@
 .data__hours-worked-chart {
-  position: relative;
   width: 448.55px;
   height: 331.21px;
   padding: 24.16px 24.16px 0px 24.16px;
+  position: relative;
   border: var(--border);
   border-radius: 4px;
   background-color: var(--white-background-color);
@@ -11,7 +11,7 @@
 .data__hwc-title {
   margin-bottom: 16px;
   font-family: "Inter-medium";
-  font-size: var(--small);
+  font-size: var(--small-xx);
   line-height: 16px;
   color: var(--primary-color);
 }
@@ -25,17 +25,17 @@
 .data__milestone-of-user,
 .data__month {
   font-family: "Inter-regular";
-  font-size: var(--smaller);
+  font-size: var(--small-xxx);
   line-height: 13px;
   color: var(--secondary-color);
 }
 
 .data__month-axis {
-  display: flex;
-  align-items: flex-end;
   position: absolute;
   top: 83px;
   left: 73px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .data__hour-item {
@@ -45,8 +45,8 @@
 
 .data__column {
   width: 25.16px;
-  border-radius: 4px 4px 0 0;
   margin-bottom: 11.76px;
+  border-radius: 4px 4px 0 0;
 }
 
 .data__column--jan {
