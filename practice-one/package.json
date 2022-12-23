@@ -2,12 +2,18 @@
   "name": "practice-one",
   "source": "./src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/index.html",
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@parcel/css": "^1.14.0",
     "@parcel/transformer-css": "^2.8.2",
     "parcel": "^2.8.2"
-  }
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "http://datdragon777.github.io/HTML-CSS-Training"
 }
