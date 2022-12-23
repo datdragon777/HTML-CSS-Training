@@ -24,6 +24,16 @@
   font-family: "Inter-regular";
 }
 
+.footer__link {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: var(--nav-btn-color);
+  cursor: pointer;
+}
+
 .footer__app-store {
   margin-top: 17px;
 }
