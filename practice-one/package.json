@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "@parcel/css": "^1.14.0",
+    "@parcel/transformer-css": "^2.8.2",
     "parcel": "^2.8.2"
   }
 }
