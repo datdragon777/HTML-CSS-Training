@@ -15,7 +15,7 @@
   z-index: -99;
 }
 
-.header__nav {
+.navbar {
   height: 48px;
   display: flex;
   justify-content: space-between;
@@ -57,7 +57,7 @@
   padding: 16px;
 }
 
-.item__name {
+.nav__link {
   font-family: "Inter-medium";
   font-size: var(--small-xx);
   line-height: 16px;
@@ -65,7 +65,7 @@
   text-decoration: none;
 }
 
-.nav__item:hover .item__name {
+.nav__item:hover .nav__link {
   color: var(--nav-btn-color);
 }
 
