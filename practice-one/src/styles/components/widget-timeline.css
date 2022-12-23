@@ -89,7 +89,7 @@
 .widget__message-item {
   margin-bottom: 16px;
   padding: 16px;
-  border: var(--border);
+  border: var(--box-outline);
   border-radius: 4px;
 }
 
