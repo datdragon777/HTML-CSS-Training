@@ -3,7 +3,8 @@
   --primary-color: #35414b;
   --secondary-color: #4e5a65;
   --white-color: #ffffff;
-  --text-btn-color: #794cff;
+  --nav-btn-color: #794cff;
+  --brand-color: #1d2830;
 
   /* Background-color */
   --primary-background-color: transparent;
@@ -11,6 +12,7 @@
   --third-background-color: #794cff;
   --white-background-color: #ffffff;
   --dark-background-color: #1d2830;
+  --header-hover-bg: #ece6ff;
 
   /* Font-large */
   --big-xxx: 64px;
@@ -22,6 +24,6 @@
   --small-xxxx: 11px;
 
   /* Border */
-  --border: 1px solid #e1e5ea;
+  --box-outline: 1px solid #e1e5ea;
 }
 

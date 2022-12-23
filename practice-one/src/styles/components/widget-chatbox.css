@@ -3,7 +3,7 @@
   position: absolute;
   bottom: -8px;
   right: -16px;
-  border: var(--border);
+  border: var(--box-outline);
   border-radius: 4px;
   background-color: var(--white-background-color);
 }
@@ -30,16 +30,12 @@
   border-radius: 4px;
 }
 
-.widget__textarea p {
+.widget__typing {
   width: 246px;
   font-family: "Inter-regular";
   font-size: var(--small-xxx);
   line-height: 20px;
   color: var(--secondary-color);
-}
-
-.widget__textarea p span {
-  color: #3b7ff6;
 }
 
 .widget__submit {

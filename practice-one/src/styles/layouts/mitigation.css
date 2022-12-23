@@ -20,7 +20,7 @@
   flex-direction: column;
 }
 
-.mitigation__icon {
+.mitigation__holder {
   width: 64px;
   height: 64px;
   display: flex;
@@ -44,27 +44,27 @@
   color: var(--secondary-color);
 }
 
-.background-surveys-reports {
+.holder--first {
   background-color: #fef6ee;
 }
 
-.background-collaborative {
+.holder--second {
   background-color: #e8fafa;
 }
 
-.background-learning-center {
+.holder--third {
   background-color: #f7ebf9;
 }
 
-.background-anonymous-messaging {
+.holder--fourth {
   background-color: #ffeff3;
 }
 
-.background-conversation-engine {
+.holder--fifth {
   background-color: #ede8f7;
 }
 
-.background-exclusives-manager {
+.holder--sixth {
   background-color: #fef5ec;
 }
 

@@ -6,15 +6,17 @@
   color: var(--white-color);
 }
 
-.btn--purple-color {
-  color: var(--text-btn-color);
-}
-
-.btn--border-radius {
+.btn--email-free {
  border-radius: 0 4px 4px 0;
 }
 
-.btn--fs-lh {
+.btn--small-xxx {
   font-size: var(--small-xxx);
   line-height: 13px;
+}
+
+.btn--data {
+  padding: 18px 21px;
+  background-color: #796eff;
+  border: none;
 }

@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 
-.footer__info--mr80 {
+.footer__info:last-child {
   margin-right: 80px;
 }
 
@@ -24,8 +24,8 @@
   font-family: "Inter-regular";
 }
 
-.footer__info-item--mt17 {
-  margin-top: 17px !important;
+.footer__app-store {
+  margin-top: 17px;
 }
 
 .footer__line {

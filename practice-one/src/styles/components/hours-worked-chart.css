@@ -3,7 +3,7 @@
   height: 331.21px;
   padding: 24.16px 24.16px 0px 24.16px;
   position: relative;
-  border: var(--border);
+  border: var(--box-outline);
   border-radius: 4px;
   background-color: var(--white-background-color);
 }

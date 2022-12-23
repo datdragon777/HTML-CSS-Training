@@ -4,7 +4,7 @@
   position: absolute;
   bottom: -2px;
   right: 4px;
-  border: var(--border);
+  border: var(--box-outline);
   border-radius: 4px;
   background-color: var(--white-background-color);
 }
