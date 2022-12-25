@@ -106,6 +106,7 @@
         <div class="container">
           <div class="widget__wrapper">
             <div class="widget__notification">
+              <!-- Start Widget Timeline -->
               <div class="widget__timeline">
                 <div class="widget__title">Timeline</div>
                 <div class="widget__message-sets--first">
@@ -181,7 +182,8 @@
                   </div>
                 </div>
               </div>
-
+              <!-- End Widget Timeline -->
+              <!-- Start Widget Chatbox -->
               <div class="widget__chatbox">
                 <div class="widget__user">
                   <figure class="widget__image image">
@@ -204,8 +206,9 @@
                   <button class="btn btn--small-xxx widget__send-btn">Send</button>
                 </div>
               </div>
+              <!-- End Widget Chatbox -->
             </div>
-
+            <!-- Start Widget Solution -->
             <ul class="widget__solution-list">
               <li class="widget__item">
                 <h4 class="widget__solution-name">Survey your team</h4>
@@ -234,6 +237,7 @@
                 </div>
               </li>
             </ul>
+            <!-- End Widget Solution -->
           </div>
         </div>
       </section>
@@ -246,10 +250,11 @@
             <h2 class="mitigation__title title-layout">
               Make your work easier
             </h2>
+            <!-- Start Mitigation List -->
             <ul class="mitigation__list">
               <li class="mitigation__item">
                 <figure
-                  class="mitigation__holder holder holder--first"
+                  class="mitigation__holder holder--first"
                 >
                   <img
                     src="./assets/icons/team-surveys-and-reports.svg"
@@ -265,7 +270,7 @@
               </li>
               <li class="mitigation__item" style="flex-basis: 230px">
                 <figure
-                  class="mitigation__holder holder holder--second"
+                  class="mitigation__holder holder--second"
                 >
                   <img
                     src="./assets/icons/collaborative.svg"
@@ -280,7 +285,7 @@
               </li>
               <li class="mitigation__item">
                 <figure
-                  class="mitigation__holder holder holder--third"
+                  class="mitigation__holder holder--third"
                 >
                   <img
                     src="./assets/icons/learning-center.svg"
@@ -296,7 +301,7 @@
               </li>
               <li class="mitigation__item">
                 <figure
-                  class="mitigation__holder holder holder--fourth"
+                  class="mitigation__holder holder--fourth"
                 >
                   <img
                     src="./assets/icons/anonymous-messaging.svg"
@@ -311,7 +316,7 @@
               </li>
               <li class="mitigation__item" style="flex-basis: 231px">
                 <figure
-                  class="mitigation__holder holder holder--fifth"
+                  class="mitigation__holder holder--fifth"
                 >
                   <img
                     src="./assets/icons/conversation-engine.svg"
@@ -326,7 +331,7 @@
               </li>
               <li class="mitigation__item">
                 <figure
-                  class="mitigation__holder holder holder--sixth"
+                  class="mitigation__holder holder--sixth"
                 >
                   <img
                     src="./assets/icons/exclusives-manager.svg"
@@ -341,6 +346,7 @@
                 </div>
               </li>
             </ul>
+            <!-- End Mitigation List -->
           </div>
         </div>
       </section>
@@ -350,6 +356,7 @@
       <section class="data secondary-background">
         <div class="container">
           <div class="data__wrapper">
+            <!-- Start Data Introduction -->
             <div class="data__introduce">
               <h2 class="data__title title-layout">
                 We work how you work everyday
@@ -360,9 +367,13 @@
               </div>
               <button type="button" class="btn btn--data">Get started free</button>
             </div>
+            <!-- End Data Introduction -->
+            <!-- Start Data Charts -->
             <div class="data__charts">
+              <!-- Start Hours Worked Chart -->
               <div class="data__hours-worked-chart">
-                <div class="data__hwc-title">Hours worked</div>
+                <div class="data__title title-hours-work">Hours worked</div>
+                <!-- Start Vertical Axix -->
                 <ul class="data__total-axis">
                   <li class="data__milestone-of-user">400</li>
                   <li class="data__milestone-of-user">300</li>
@@ -370,6 +381,8 @@
                   <li class="data__milestone-of-user">100</li>
                   <li class="data__milestone-of-user">0</li>
                 </ul>
+                <!-- End Vertical Axis -->
+                <!-- Start Horizontal Axis -->
                 <ul class="data__month-axis">
                   <li class="data__hour-item">
                     <div class="data__column data__column--jan"></div>
@@ -392,9 +405,12 @@
                     <span class="data__month">May</span>
                   </li>
                 </ul>
+                <!-- End Horizontal Axis -->
               </div>
+              <!-- End Hours Worked Chart -->
+              <!-- Start Launched Projects Chart -->
               <div class="data__launched-projects-chart">
-                <div class="data__lpc-title">Launched Projects</div>
+                <div class="data__title title-launched-projects">Launched Projects</div>
                 <ul class="data__number-of-project">
                   <li
                     class="data__project-item data__project-item--jan"
@@ -423,7 +439,9 @@
                   ></li>
                 </ul>
               </div>
+              <!-- End Launched Projects Chart -->
             </div>
+            <!-- End Data Charts -->
           </div>
         </div>
       </section>
@@ -446,7 +464,7 @@
               </div>
             </div>
             <ul class="commercial__users">
-              <li class="commercial__user-item">
+              <li class="commercial__item">
                 <img
                   src="./assets/images/jorge-robertson.jpg"
                   alt="Jorge Robertson"
@@ -457,7 +475,7 @@
                   <div class="commercial__role">CS at Google</div>
                 </div>
               </li>
-              <li class="commercial__user-item">
+              <li class="commercial__item">
                 <img
                   src="./assets/images/francisco-bell.jpg"
                   alt="Francisco Bell"
@@ -468,7 +486,7 @@
                   <div class="commercial__role">Designer at Microsoft</div>
                 </div>
               </li>
-              <li class="commercial__user-item">
+              <li class="commercial__item">
                 <img
                   src="./assets/images/beth-fox.jpg"
                   alt="Beth Fox"
@@ -510,34 +528,34 @@
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__info">
-            <div class="footer__info-title">Company</div>
-            <ul class="footer__info-list">
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">About Us</a></li>
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Blog</a><li>
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Careers</a></li>
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Contact Us</a></li>
+            <div class="footer__title">Company</div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">About Us</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Blog</a><li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Careers</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Contact Us</a></li>
             </ul>
           </div>
           <div class="footer__info">
-            <div class="footer__info-title">Support</div>
-            <ul class="footer__info-list">
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Help Center</a></li>
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Safety Center</a></li>
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Community</a></li>
+            <div class="footer__title">Support</div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Help Center</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Safety Center</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Community</a></li>
             </ul>
           </div>
           <div class="footer__info">
-            <div class="footer__info-title">Legal</div>
-            <ul class="footer__info-list">
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Privacy Policy</a></li>
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Terms of</a> Service</li>
-              <li class="footer__info-item"><a href="javascript:void(0)" class="footer__link">Cookies Policy</a></li>
+            <div class="footer__title">Legal</div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Privacy Policy</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Terms of</a> Service</li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Cookies Policy</a></li>
             </ul>
           </div>
           <div class="footer__info">
-            <div class="footer__info-title">Install App</div>
-            <ul class="footer__info-list">
-              <li class="footer__info-item">
+            <div class="footer__title">Install App</div>
+            <ul class="footer__list">
+              <li class="footer__item">
                 <a href="javascript:void(0)" class="footer__download-btn"
                   ><img
                     src="./assets/icons/google-play-black.svg"
@@ -545,7 +563,7 @@
                     class="footer__img"
                 /></a>
               </li>
-              <li class="footer__info-item footer__app-store">
+              <li class="footer__item footer__app-store">
                 <a href="javascript:void(0)" class="footer__download-btn"
                   ><img
                     src="./assets/icons/app-store-black.svg"

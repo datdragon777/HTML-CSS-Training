@@ -8,7 +8,7 @@
   background-color: var(--white-background-color);
 }
 
-.data__hwc-title {
+.title-hours-work {
   margin-bottom: 16px;
   font-family: "Inter-medium";
   font-size: var(--small-xx);

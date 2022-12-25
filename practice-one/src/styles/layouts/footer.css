@@ -8,18 +8,18 @@
   margin-right: 80px;
 }
 
-.footer__info-title,
-.footer__info-item {
+.footer__title,
+.footer__item {
   font-size: var(--small-xx);
   line-height: 16px;
   color: var(--white-color);
 }
 
-.footer__info-title {
+.footer__title {
   font-family: "Inter-semibold";
 }
 
-.footer__info-item {
+.footer__item {
   margin-top: 24px;
   font-family: "Inter-regular";
 }

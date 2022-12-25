@@ -40,14 +40,14 @@
   align-items: center;
 }
 
-.commercial__user-item {
+.commercial__item {
   width: 264px;
   padding-top: 24px;
   display: flex;
   border-top: 4px solid transparent;
 }
 
-.commercial__user-item:hover {
+.commercial__item:hover {
   cursor: default;
   border-top: 4px solid var(--primary-color);
 }
