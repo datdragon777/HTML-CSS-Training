@@ -62,7 +62,7 @@
   text-align: center;
 }
 
-.hero__email {
+.hero__input {
   width: 272px;
   padding: 18px 24px;
   font-family: "Inter-regular";
@@ -74,7 +74,7 @@
   border-radius: 4px 0px 0px 4px;
 }
 
-.hero__email:focus {
+.hero__input:focus {
   outline: none;
 }
 
@@ -83,6 +83,7 @@
   padding: 18px 45px;
   position: relative;
   left: -7px;
+  border-radius: 0 4px 4px 0;
   background: var(--third-background-color);
   border: 1px solid var(--third-background-color);
   cursor: pointer;
@@ -120,7 +121,7 @@
   font-weight: 900;
 }
 
-.hero__nav {
+.hero__logos {
   display: flex;
   justify-content: space-around;
   align-items: center;
