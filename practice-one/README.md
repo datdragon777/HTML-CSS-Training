@@ -7,13 +7,13 @@ Introduce dashboard app" landing page
 - Naming with BEM
 - Apply Flexbox
 - Set CSS variable
-  
-## Design on figma: ##
-[Figma](https://www.figma.com/file/EU7YtWp4zSAzwJ67VVNv3k/Web%2FMobile-%E2%80%94-Template-Website-(Community)?node-id=2%3A2&t=EEKAaN3JI6ozviDy-0)  
 
-## Deploy: 
-[Here]()
-  
+## Design on figma: ##
+[Figma](https://www.figma.com/file/EU7YtWp4zSAzwJ67VVNv3k/Web%2FMobile-%E2%80%94-Template-Website-(Community)?node-id=2%3A2&t=EEKAaN3JI6ozviDy-0)
+
+## Deploy:
+[Here](https://dat-html-css.netlify.app/)
+
 ## Information: ##
 - Time line: 08/12/2022 -> 19/12/2022
 - Editor: Visual Studio Code
