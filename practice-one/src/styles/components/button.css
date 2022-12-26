@@ -6,11 +6,6 @@
   color: var(--white-color);
 }
 
-.btn--small-xxx {
-  font-size: var(--small-xxx);
-  line-height: 13px;
-}
-
 .btn--data {
   padding: 18px 21px;
   background-color: #796eff;

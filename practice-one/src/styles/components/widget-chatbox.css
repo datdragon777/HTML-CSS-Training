@@ -45,6 +45,8 @@
 
 .widget__send-btn {
   padding: 14px 29px 15px;
+  font-size: var(--small-xxx);
+  line-height: 13px;
   background: #3b7ff6;
   border: none;
 }

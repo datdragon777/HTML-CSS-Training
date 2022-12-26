@@ -5,6 +5,7 @@
   border: var(--box-outline);
   border-radius: 4px;
   background-color: var(--white-background-color);
+  overflow: hidden;
 }
 
 .widget__title {
@@ -15,7 +16,7 @@
   color: var(--secondary-color);
 }
 
-.widget__message-sets--first {
+.widget__message-sets {
   margin-bottom: 8px;
 }
 
@@ -33,10 +34,10 @@
   border-radius: 100%;
 }
 
-.icon--message-bg {
+.widget__icon--message-bg {
   background: #fdf8e8;
 }
-.icon--date-bg {
+.widget__icon--date-bg {
   background: #e5f8ed;
 }
 
@@ -61,24 +62,16 @@
   justify-content: space-between;
 }
 
-.widget__message-container--first {
-  height: 255px;
-}
-
-.widget__message-container--second {
-  height: 42px;
-}
-
 .widget__vertical-line {
   margin: 0 30px 0 15px;
   border: 0.5px solid #e1e5ea;
 }
 
-.widget__vertical-line--first {
+.widget__vertical-line--long {
   height: 255px;
 }
 
-.widget__vertical-line--second {
+.widget__vertical-line--short {
   height: 42px;
 }
 
@@ -89,20 +82,10 @@
 .widget__message-item {
   margin-bottom: 16px;
   padding: 16px;
-  border: var(--box-outline);
-  border-radius: 4px;
-}
-
-.widget__message-item--text {
   font-family: "Inter-regular";
   font-size: var(--small-xxx);
   line-height: 16px;
   color: var(--secondary-color);
-}
-
-.widget__last-meeting {
-  padding: 16px 16px 11px 16px;
-  border: 1px solid #e1e5ea;
-  border-bottom: 0;
-  border-radius: 4px 4px 0 0;
+  border: var(--box-outline);
+  border-radius: 4px;
 }
