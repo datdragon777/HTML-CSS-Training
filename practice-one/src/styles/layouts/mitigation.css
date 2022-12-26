@@ -20,6 +20,14 @@
   flex-direction: column;
 }
 
+.mitigation__item:nth-child(2) {
+  flex-basis: 230px;
+}
+
+.mitigation__item:nth-child(5) {
+  flex-basis: 231px;
+}
+
 .mitigation__holder {
   width: 64px;
   height: 64px;
@@ -44,27 +52,27 @@
   color: var(--secondary-color);
 }
 
-.holder--first {
+.mitigation__holder--first {
   background-color: #fef6ee;
 }
 
-.holder--second {
+.mitigation__holder--second {
   background-color: #e8fafa;
 }
 
-.holder--third {
+.mitigation__holder--third {
   background-color: #f7ebf9;
 }
 
-.holder--fourth {
+.mitigation__holder--fourth {
   background-color: #ffeff3;
 }
 
-.holder--fifth {
+.mitigation__holder--fifth {
   background-color: #ede8f7;
 }
 
-.holder--sixth {
+.mitigation__holder--sixth {
   background-color: #fef5ec;
 }
 
