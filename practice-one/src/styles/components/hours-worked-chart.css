@@ -1,4 +1,4 @@
-.data__hours-worked-chart {
+.data__main-chart {
   width: 448.55px;
   height: 331.21px;
   padding: 24.16px 24.16px 0px 24.16px;
@@ -8,7 +8,7 @@
   background-color: var(--white-background-color);
 }
 
-.title-hours-work {
+.main-chart__title {
   margin-bottom: 16px;
   font-family: "Inter-medium";
   font-size: var(--small-xx);
@@ -49,25 +49,25 @@
   border-radius: 4px 4px 0 0;
 }
 
-.data__column--jan {
+.data__column--blue {
   height: 165px;
   background-color: #508ef5;
 }
 
-.data__column--feb {
+.data__column--light-red {
   height: 223.25px;
   background-color: #ee726f;
 }
 
-.data__column--mar {
+.data__column--yellow {
   height: 81.75px;
   background-color: #f8cd5f;
 }
-.data__column--apr {
+.data__column--orange {
   height: 51.36px;
   background-color: #f4af59;
 }
-.data__column--may {
+.data__column--light-orange {
   height: 30.4px;
   background-color: #ea8d6a;
 }
