@@ -1,5 +1,5 @@
 # HTML-CSS-PRACTICE_ONE #
-Introduce dashboard app" landing page
+Introduce dashboard app landing page
 
 ## Target: ##
 - Understand how to analyze design
