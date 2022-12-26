@@ -21,6 +21,12 @@
   color: var(--secondary-color);
 }
 
+.data__btn {
+  padding: 18px 21px;
+  background-color: #796eff;
+  border: none;
+}
+
 .data__charts {
   width: 596.39px;
   height: 404.68px;
