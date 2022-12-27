@@ -5,29 +5,29 @@
   position: relative;
   border: var(--box-outline);
   border-radius: 4px;
-  background-color: var(--white-background-color);
+  background-color: var(--clr-white);
 }
 
 .main-chart__title {
   margin-bottom: 16px;
   font-family: "Inter-medium";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: var(--primary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-primary);
 }
 
 .data__milestone-of-user {
   width: 100%;
   padding: 18px 0 18px 0;
-  border-bottom: 0.5px dashed #e1e5ea;
+  border-bottom: 0.5px dashed var(--clr-blue-ltr);
 }
 
 .data__milestone-of-user,
 .data__month {
   font-family: "Inter-regular";
-  font-size: var(--small-xxx);
-  line-height: 13px;
-  color: var(--secondary-color);
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-x-sm);
+  color: var(--clr-primary-lt);
 }
 
 .data__month-axis {
@@ -51,23 +51,23 @@
 
 .data__column--blue {
   height: 165px;
-  background-color: #508ef5;
+  background-color: var(--clr-blue);
 }
 
 .data__column--light-red {
   height: 223.25px;
-  background-color: #ee726f;
+  background-color: var(--clr-pink);
 }
 
 .data__column--yellow {
   height: 81.75px;
-  background-color: #f8cd5f;
+  background-color: var(--clr-yellow);
 }
 .data__column--orange {
   height: 51.36px;
-  background-color: #f4af59;
+  background-color: var(--clr-orange);
 }
 .data__column--light-orange {
   height: 30.4px;
-  background-color: #ea8d6a;
+  background-color: var(--clr-orange-dk);
 }
