@@ -5,7 +5,7 @@
   right: -16px;
   border: var(--box-outline);
   border-radius: 4px;
-  background-color: var(--white-background-color);
+  background-color: var(--clr-white);
 }
 
 .widget__user {
@@ -18,24 +18,24 @@
 
 .widget__role {
   font-family: "Inter-regular";
-  font-size: var(--small-xxxx);
-  line-height: 11px;
-  color: var(--secondary-color);
+  font-size: var(--fs-xx-sm);
+  line-height: var(--lh-xx-sm);
+  color: var(--clr-primary-lt);
 }
 
 .widget__textarea {
   margin: 16px 0;
   padding: 16px 37px 119px 16px;
-  border: 1px solid #e1e5ea;
+  border: 1px solid var(--clr-blue-ltr);
   border-radius: 4px;
 }
 
 .widget__typing {
   width: 246px;
   font-family: "Inter-regular";
-  font-size: var(--small-xxx);
-  line-height: 20px;
-  color: var(--secondary-color);
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-x-lg);
+  color: var(--clr-primary-lt);
 }
 
 .widget__submit {
@@ -45,8 +45,8 @@
 
 .widget__send-btn {
   padding: 14px 29px 15px;
-  font-size: var(--small-xxx);
-  line-height: 13px;
-  background: #3b7ff6;
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-x-sm);
+  background: var(--clr-blue-dk);
   border: none;
 }
