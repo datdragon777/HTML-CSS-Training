@@ -40,40 +40,40 @@
 .mitigation__sub-title {
   margin: 24px 0 8px 0;
   font-family: "Inter-semibold";
-  font-size: var(--small-x);
-  line-height: 18px;
-  color: var(--primary-color);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-lg);
+  color: var(--clr-primary);
 }
 
 .mitigation__description {
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
-  line-height: 24px;
-  color: var(--secondary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-xx-lg);
+  color: var(--clr-primary-lt);
 }
 
 .mitigation__holder--first {
-  background-color: #fef6ee;
+  background-color: var(--clr-orange-ltr);
 }
 
 .mitigation__holder--second {
-  background-color: #e8fafa;
+  background-color: var(--clr-green-lt);
 }
 
 .mitigation__holder--third {
-  background-color: #f7ebf9;
+  background-color: var(--clr-pink-ltr);
 }
 
 .mitigation__holder--fourth {
-  background-color: #ffeff3;
+  background-color: var(--clr-pink-lt);
 }
 
 .mitigation__holder--fifth {
-  background-color: #ede8f7;
+  background-color: var(--clr-secondary-ltr);
 }
 
 .mitigation__holder--sixth {
-  background-color: #fef5ec;
+  background-color: var(--clr-orange-lt);
 }
 
 
