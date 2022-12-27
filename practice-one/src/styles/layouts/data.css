@@ -1,5 +1,5 @@
 .data {
-  border: 1px solid #f0ebfa;
+  border: 1px solid var(--clr-white-lt);
 }
 
 .data__wrapper {
@@ -16,14 +16,14 @@
 .data__description {
   margin: 24px 0 32px 0;
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
-  line-height: 24px;
-  color: var(--secondary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-xx-lg);
+  color: var(--clr-primary-lt);
 }
 
 .data__btn {
   padding: 18px 21px;
-  background-color: #796eff;
+  background-color: var(--clr-secondary);
   border: none;
 }
 
