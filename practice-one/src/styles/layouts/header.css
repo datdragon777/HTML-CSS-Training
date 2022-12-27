@@ -28,6 +28,7 @@
   line-height: 24px;
   color: var(--brand-color);
   text-decoration: none;
+  letter-spacing: -0.06em;
 }
 
 .navbar__brand .brand__dot {

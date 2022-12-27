@@ -1,29 +1,80 @@
 :root {
-  /* Color */
-  --primary-color: #35414b;
-  --secondary-color: #4e5a65;
-  --white-color: #ffffff;
-  --nav-btn-color: #794cff;
-  --brand-color: #1d2830;
+  /* Colors */
+  --clr-primary: #35414b;
+  --clr-primary-lt: #4e5a65;
+  --clr-primary-dk: #1d2830;
 
-  /* Background-color */
-  --primary-background-color: transparent;
-  --secondary-background-color: #fbfafe;
-  --third-background-color: #794cff;
-  --white-background-color: #ffffff;
-  --dark-background-color: #1d2830;
-  --header-hover-bg: #ece6ff;
+  --clr-secondary: #796eff;
+  --clr-secondary-lt: #ece6ff;
+  --clr-secondary-ltr: #ede8f7;
+  --clr-secondary-ltst: #f6f3fc;
+  --clr-secondary-dk: #794cff;
 
-  /* Font-large */
-  --big-xxx: 64px;
-  --big-xx: 40px;
-  --big-x: 24px;
-  --small-x: 18px;
-  --small-xx: 16px;
-  --small-xxx: 13px;
-  --small-xxxx: 11px;
+  --clr-white: #ffffff;
+  --clr-white-lt: #d9dbe1;
+  --clr-white-opacity: rgba(255, 255, 255, 0.1);
+
+  --clr-green: #81c43b;
+  --clr-green-lt: #e8fafa;
+  --clr-green-ltr: #f2f9eb;
+  --clr-green-ltst: #e5f8ed;
+  --clr-green-dk: #5fcb79;
+
+  --clr-blue: #508ef5;
+  --clr-blue-lt: #97a5b5;
+  --clr-blue-ltr: #e1e5ea;
+  --clr-blue-ltst: #f3f5f9;
+  --clr-blue-dk: #3b7ff6;
+
+  --clr-yellow: #f8cd5f;
+  --clr-yellow-lt: #fdf8e8;
+
+  --clr-orange: #f4af59;
+  --clr-orange-lt: #fef5ec;
+  --clr-orange-ltr: #fef6ee;
+  --clr-orange-dk: #ea8d6a;
+
+  --clr-pink: #ee726f;
+  --clr-pink-lt: #ffeff3;
+  --clr-pink-ltr: #f7ebf9;
+
+  /* Background */
+  --bg-primary: transparent;
+  --bg-secondary: #fbfafe;
 
   /* Border */
   --box-outline: 1px solid #e1e5ea;
-}
+  --box-bottom-outline: 1px solid #f0ebfa;
 
+  /* Heading font sizes */
+  --fs-h1: 64px;
+  --fs-h2: 40px;
+  --fs-h3: 18px;
+
+  /* Text font sizes */
+  --fs-xxxx-lg: 64px;
+  --fs-xxx-lg: 40px;
+  --fs-xx-lg: 32px;
+  --fs-x-lg: 24px;
+  --fs-lg: 18px;
+  --fs-md: 16px;
+  --fs-sm: 14px;
+  --fs-x-sm: 13px;
+  --fs-xx-sm: 11px;
+  --fs-xxx-sm: 10px;
+  --fs-xxxxx-sm: 8px;
+
+  /* Line heights */
+  --lh-xxxxx-lg: 72px;
+  --lh-xxxx-lg: 48px;
+  --lh-xxx-lg: 32px;
+  --lh-xx-lg: 24px;
+  --lh-x-lg: 20px;
+  --lh-lg: 18px;
+  --lh-md: 16px;
+  --lh-sm: 14px;
+  --lh-x-sm: 13px;
+  --lh-xx-sm: 11px;
+  --lh-xxx-sm: 10px;
+  --lh-xxxx-sm: 8px;
+}
