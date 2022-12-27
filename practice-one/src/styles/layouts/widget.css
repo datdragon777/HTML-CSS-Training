@@ -1,5 +1,5 @@
 .widget {
-  border: 1px dashed #f0ebfa;
+  border: 1px dashed var(--clr-white-lt);
 }
 
 .widget__wrapper {
@@ -20,13 +20,13 @@
 }
 
 .widget__tag-name {
-  color: #3b7ff6;
+  color: var(--clr-blue-dk);
 }
 
 .widget__item {
   padding: 26px 32px 26px 24px;
   border-left: 8px solid transparent;
-  border-bottom: 1px solid #f0ebfa;
+  border-bottom: 1px solid var(--clr-white-lt);
 }
 
 .widget__item:last-child {
@@ -34,26 +34,26 @@
 }
 
 .widget__item:hover {
-  border-left: 8px solid var(--third-background-color);
-  border-bottom: 1px solid transparent;;
+  border-left: 8px solid var(--clr-secondary-dk);
+  border-bottom: 1px solid var(--bg-primary);
   border-radius: 0 8px 8px 0;
-  background-color: #f6f3fc;
+  background-color: var(--clr-secondary-ltst);
   cursor: default;
 }
 
 .widget__solution-name {
   margin-bottom: 10px;
   font-family: "Inter-semibold";
-  font-size: var(--small-x);
+  font-size: var(--fs-h3);
   line-height: 18px;
-  color: var(--primary-color);
+  color: var(--clr-primary);
 }
 
 .widget-description {
   width: 308px;
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
+  font-size: var(--fs-md);
   line-height: 24px;
-  color: var(--secondary-color);
+  color: var(--clr-primary-lt);
 }
 
