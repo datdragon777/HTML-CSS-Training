@@ -6,15 +6,15 @@
   right: 4px;
   border: var(--box-outline);
   border-radius: 4px;
-  background-color: var(--white-background-color);
+  background-color: var(--clr-white);
 }
 
 .sub-chart__title {
   margin-bottom: 57px;
   font-family: "Inter-medium";
-  font-size: var(--small-x);
-  line-height: 24px;
-  color: var(--primary-color);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-xx-lg);
+  color: var(--clr-primary);
 }
 
 .data__number-of-project {
@@ -28,7 +28,7 @@
   margin-right: 21px;
   position: relative;
   border-radius: 4px 4px 0 0;
-  background-color: #f3f5f9;
+  background-color: var(--clr-blue-ltst);
 }
 
 .data__project-item:last-child {
@@ -54,18 +54,18 @@
 .data__project-item::before,
 .data__project-item::after {
   font-family: "Inter-medium";
-  font-size: 8px;
-  line-height: 8px;
-  color: var(--secondary-color);
+  font-size: var(--fs-xxxxx-sm);
+  line-height: var(--lh-xxxx-sm);
+  color: var(--clr-primary-lt);
 }
 
 .data__project-item:hover {
-  background-color: #5fcb79;
+  background-color: var(--clr-green-dk);
 }
 
 .data__project-item:hover::before,
 .data__project-item:hover::after {
-  color: #5fcb79;
+  color: var(--clr-green-dk);
 }
 
 .data__project-item::before {
