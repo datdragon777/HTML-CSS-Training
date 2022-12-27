@@ -1,6 +1,6 @@
 .title-layout {
   font-family: "Inter-semibold";
-  font-size: var(--fs-xxx-lg);
+  font-size: var(--fs-h2);
   line-height: 40px;
   color: var(--clr-primary);
 }

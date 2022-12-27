@@ -40,7 +40,7 @@
 .mitigation__sub-title {
   margin: 24px 0 8px 0;
   font-family: "Inter-semibold";
-  font-size: var(--fs-lg);
+  font-size: var(--fs-h3);
   line-height: var(--lh-lg);
   color: var(--clr-primary);
 }
