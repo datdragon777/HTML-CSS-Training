@@ -18,10 +18,10 @@
 .hero__choose {
   padding: 8px 16px;
   font-family: "Inter-medium";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: var(--white-color);
-  background-color: #81c43b;
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-white);
+  background-color: var(--clr-green);
   border-radius: 100px;
 }
 
@@ -32,33 +32,33 @@
   left: -32px;
   z-index: -1;
   display: flex;
-  background: #f2f9eb;
+  background: var(--clr-green-ltr);
   border-radius: 0px 100px 100px 0px;
 }
 
 .hero__get-account .get-account__text {
   padding: 0 4.64px 0 40px;
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: var(--primary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-primary);
 }
 
 .hero__title {
   width: 766px;
   font-family: "Inter-bold";
-  font-size: var(--big-xxx);
-  line-height: 72px;
-  color: var(--primary-color);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-xxxxx-lg);
+  color: var(--clr-primary);
   text-align: center;
 }
 
 .hero__description {
   width: 506px;
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
-  line-height: 150%;
-  color: var(--secondary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-xx-lg);
+  color: var(--clr-primary-lt);
   text-align: center;
 }
 
@@ -66,10 +66,10 @@
   width: 272px;
   padding: 18px 24px;
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: #97a5b5;
-  background: #ffffff;
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-blue-lt);
+  background: var(--clr-white);
   border: var(--border);
   border-radius: 4px 0px 0px 4px;
 }
@@ -84,8 +84,8 @@
   position: relative;
   left: -7px;
   border-radius: 0 4px 4px 0;
-  background: var(--third-background-color);
-  border: 1px solid var(--third-background-color);
+  background: var(--clr-secondary-dk);
+  border: 1px solid var(--clr-secondary-dk);
   cursor: pointer;
 }
 
@@ -110,9 +110,9 @@
 .hero__trust {
   margin-bottom: 27px;
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: var(--secondary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-primary-lt);
   text-transform: uppercase;
   text-align: center;
 }
