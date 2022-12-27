@@ -4,16 +4,16 @@
   padding: 32px 31px 0 32px;
   border: var(--box-outline);
   border-radius: 4px;
-  background-color: var(--white-background-color);
+  background-color: var(--clr-white);
   overflow: hidden;
 }
 
 .widget__title {
   margin-bottom: 32px;
   font-family: "Inter-medium";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: var(--secondary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-primary-lt);
 }
 
 .widget__message-sets {
@@ -35,25 +35,25 @@
 }
 
 .widget__icon--message-bg {
-  background: #fdf8e8;
+  background: var(--clr-yellow-lt);
 }
 .widget__icon--date-bg {
-  background: #e5f8ed;
+  background: var(--clr-green-ltst);
 }
 
 .widget__name {
   margin-bottom: 4px;
   font-family: "Inter-medium";
-  font-size: var(--small-xxx);
-  line-height: 13px;
-  color: var(--secondary-color);
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-x-sm);
+  color: var(--clr-primary-lt);
 }
 
 .widget__time-sent {
   font-family: "Inter-regular";
-  font-size: var(--small-xxxx);
-  line-height: 11px;
-  color: var(--secondary-color);
+  font-size: var(--fs-xx-sm);
+  line-height: var(--lh-xx-sm);
+  color: var(--clr-primary-lt);
 }
 
 .widget__message-container {
@@ -64,7 +64,7 @@
 
 .widget__vertical-line {
   margin: 0 30px 0 15px;
-  border: 0.5px solid #e1e5ea;
+  border: 0.5px solid var(--clr-blue-ltr);
 }
 
 .widget__vertical-line--long {
@@ -83,9 +83,9 @@
   margin-bottom: 16px;
   padding: 16px;
   font-family: "Inter-regular";
-  font-size: var(--small-xxx);
-  line-height: 16px;
-  color: var(--secondary-color);
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-md);
+  color: var(--clr-primary-lt);
   border: var(--box-outline);
   border-radius: 4px;
 }
