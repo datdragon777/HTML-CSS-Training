@@ -1,13 +1,13 @@
 .primary-background {
-  background-color: var(--primary-background-color);
+  background-color: var(--bg-primary);
 }
 
 .secondary-background {
-  background: var(--secondary-background-color);
+  background: var(--bg-secondary);
 }
 
 .dark-background {
-  background-color: var(--dark-background-color);
+  background-color: var(--clr-primary-dk);
 }
 
 
