@@ -16,9 +16,9 @@
 
 .commercial__title {
   font-family: "Inter-semibold";
-  font-size: var(--big-xx);
-  line-height: 48px;
-  color: var(--primary-color);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-xxxx-lg);
+  color: var(--clr-primary);
   text-align: center;
 }
 .commercial__description {
@@ -27,9 +27,9 @@
 
 .commercial__comment {
   font-family: "Inter-regular";
-  font-size: var(--small-x);
-  line-height: 32px;
-  color: var(--secondary-color);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-xxx-lg);
+  color: var(--clr-primary-lt);
   text-align: center;
 }
 
@@ -44,12 +44,12 @@
   width: 264px;
   padding-top: 24px;
   display: flex;
-  border-top: 4px solid transparent;
+  border-top: 4px solid var(--bg-primary);
 }
 
 .commercial__item:hover {
   cursor: default;
-  border-top: 4px solid var(--primary-color);
+  border-top: 4px solid var(--clr-primary);
 }
 
 .commercial__logo-user {
@@ -65,23 +65,23 @@
 .commercial__name {
   margin-bottom: 8px;
   font-family: "Inter-semibold";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: var(--secondary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-primary-lt);
 }
 
 .commercial__role {
   font-family: "Inter-regular";
-  font-size: var(--small-xx);
-  line-height: 16px;
-  color: var(--secondary-color);
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-primary-lt);
 }
 
 .commercial__info-download {
   width: 100%;
   height: 224px;
   margin-top: 100px;
-  background-color: var(--third-background-color);
+  background-color: var(--clr-secondary-dk);
   border-radius: 16px;
   display: flex;
   justify-content: space-between;
@@ -92,9 +92,9 @@
   width: 423px;
   margin-left: 80px;
   font-family: "Inter-semibold";
-  font-size: 32px;
-  line-height: 48px;
-  color: var(--white-color);
+  font-size: var(--fs-xx-lg);
+  line-height: var(--lh-xxxx-lg);
+  color: var(--clr-white);
 }
 
 .commercial__download-container {
