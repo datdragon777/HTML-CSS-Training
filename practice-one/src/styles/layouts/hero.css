@@ -1,3 +1,9 @@
+.hero {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+}
+
 .hero__header {
   display: flex;
   justify-content: center;
@@ -104,7 +110,6 @@
 
 .hero__footer {
   width: 100%;
-  margin-bottom: 100.89px;
 }
 
 .hero__trust {
