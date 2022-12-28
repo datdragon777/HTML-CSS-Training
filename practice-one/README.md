@@ -19,9 +19,6 @@ Introduce dashboard app landing page
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
 
-## Requirements ##
-- Parcel: version 2.0.1
-
 ## Folder structure ##
 practice-one
 ~~~
@@ -78,11 +75,15 @@ git clone https://github.com/datdragon777/HTML-CSS-Training.git
 ~~~
 cd HTML-CSS-Training
 ~~~
-- Step 03: Open terminal and type:
+- Step 03: Next open folder practice-one
+~~~
+cd practice-one
+~~~
+- Step 04: Open terminal and type:
 ~~~
 npm install
 ~~~
-- Step 04: Finally run with:
+- Step 05: Finally run with:
 ~~~
 npm start
 ~~~
