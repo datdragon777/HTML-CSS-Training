@@ -22,19 +22,6 @@
   align-items: center;
 }
 
-.navbar__brand .brand__name {
-  font-family: "Josefin Sans-regular";
-  font-size: var(--fs-x-lg);
-  line-height: var(--lh-xx-lg);
-  color: var(--clr-primary-dk);
-  text-decoration: none;
-  letter-spacing: -0.06em;
-}
-
-.navbar__brand .brand__dot {
-  color: var(--clr-secondary-dk);
-}
-
 .navbar__body {
   margin-left: 130px;
   display: flex;
