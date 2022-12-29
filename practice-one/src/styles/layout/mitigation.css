@@ -49,31 +49,31 @@
   font-family: "Inter-regular";
   font-size: var(--fs-md);
   line-height: var(--lh-xx-lg);
-  color: var(--clr-primary-lt);
+  color: var(--blue-500);
 }
 
 .mitigation__holder--first {
-  background-color: var(--clr-orange-ltr);
+  background-color: var(--orange);
 }
 
 .mitigation__holder--second {
-  background-color: var(--clr-green-lt);
+  background-color: var(--green-200);
 }
 
 .mitigation__holder--third {
-  background-color: var(--clr-pink-ltr);
+  background-color: var(--pink);
 }
 
 .mitigation__holder--fourth {
-  background-color: var(--clr-pink-lt);
+  background-color: var(--pink-100);
 }
 
 .mitigation__holder--fifth {
-  background-color: var(--clr-secondary-ltr);
+  background-color: var(--purple-100);
 }
 
 .mitigation__holder--sixth {
-  background-color: var(--clr-orange-lt);
+  background-color: var(--orange-100);
 }
 
 

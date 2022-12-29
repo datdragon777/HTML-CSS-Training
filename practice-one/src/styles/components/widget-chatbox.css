@@ -5,7 +5,7 @@
   right: -16px;
   border: var(--box-outline);
   border-radius: 4px;
-  background-color: var(--clr-white);
+  background-color: var(--white);
 }
 
 .widget__user {
@@ -20,13 +20,13 @@
   font-family: "Inter-regular";
   font-size: var(--fs-xx-sm);
   line-height: var(--lh-xx-sm);
-  color: var(--clr-primary-lt);
+  color: var(--blue-500);
 }
 
 .widget__textarea {
   margin: 16px 0;
   padding: 16px 37px 119px 16px;
-  border: 1px solid var(--clr-blue-ltr);
+  border: 1px solid var(--blue-100);
   border-radius: 4px;
 }
 
@@ -35,7 +35,7 @@
   font-family: "Inter-regular";
   font-size: var(--fs-x-sm);
   line-height: var(--lh-x-lg);
-  color: var(--clr-primary-lt);
+  color: var(--blue-500);
 }
 
 .widget__submit {
@@ -47,6 +47,6 @@
   padding: 14px 29px 15px;
   font-size: var(--fs-x-sm);
   line-height: var(--lh-x-sm);
-  background: var(--clr-blue-dk);
+  background: var(--blue-400);
   border: none;
 }

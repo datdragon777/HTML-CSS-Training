@@ -1,43 +1,46 @@
 :root {
   /* Colors */
-  --clr-primary: #35414b;
-  --clr-primary-lt: #4e5a65;
-  --clr-primary-dk: #1d2830;
+  --clr-primary: var(--blue-600);
+  --clr-secondary: var(--purple-300);
 
-  --clr-secondary: #796eff;
-  --clr-secondary-lt: #ece6ff;
-  --clr-secondary-ltr: #ede8f7;
-  --clr-secondary-ltst: #f6f3fc;
-  --clr-secondary-dk: #794cff;
+  --white: #ffffff;
+  --white-100: #f0ebfa;
+  --white-200: #d9dbe1;
+  --white-opacity: rgba(255, 255, 255, 0.1);
 
-  --clr-white: #ffffff;
-  --clr-white-lt: #f0ebfa;
-  --clr-white-ltr: #d9dbe1;
-  --clr-white-opacity: rgba(255, 255, 255, 0.1);
+  --blue: #f3f5f9;
+  --blue-100: #e1e5ea;
+  --blue-200: #97a5b5;
+  --blue-300: #508ef5;
+  --blue-400: #3b7ff6;
+  --blue-500: #4e5a65;
+  --blue-600: #35414b;
+  --blue-700: #1d2830;
 
-  --clr-green: #81c43b;
-  --clr-green-lt: #e8fafa;
-  --clr-green-ltr: #f2f9eb;
-  --clr-green-ltst: #e5f8ed;
-  --clr-green-dk: #5fcb79;
+  --purple: #f6f3fc;
+  --purple-100: #ede8f7;
+  --purple-200: #ece6ff;
+  --purple-300: #796eff;
+  --purple-400: #794cff;
 
-  --clr-blue: #508ef5;
-  --clr-blue-lt: #97a5b5;
-  --clr-blue-ltr: #e1e5ea;
-  --clr-blue-ltst: #f3f5f9;
-  --clr-blue-dk: #3b7ff6;
+  --green: #e5f8ed;
+  --green-100: #f2f9eb;
+  --green-200: #e8fafa;
+  --green-300: #5fcb79;
+  --green-400: #81c43b;
 
-  --clr-yellow: #f8cd5f;
-  --clr-yellow-lt: #fdf8e8;
+  --yellow: #fdf8e8;
+  --yellow-100: #f8cd5f;
 
-  --clr-orange: #f4af59;
-  --clr-orange-lt: #fef5ec;
-  --clr-orange-ltr: #fef6ee;
-  --clr-orange-dk: #ea8d6a;
+  --orange: #fef6ee;
+  --orange-100: #fef5ec;
+  --orange-200: #f4af59;
+  --orange-300: #ea8d6a;
 
-  --clr-pink: #ee726f;
-  --clr-pink-lt: #ffeff3;
-  --clr-pink-ltr: #f7ebf9;
+  --pink: #f7ebf9;
+  --pink-100: #ffeff3;
+  --pink-200: #ee726f;
+
 
   /* Background */
   --bg-primary: transparent;
@@ -45,7 +48,6 @@
 
   /* Border */
   --box-outline: 1px solid #e1e5ea;
-  --box-bottom-outline: 1px solid #f0ebfa;
 
   /* Heading font sizes */
   --fs-h1: 64px;
@@ -78,4 +80,12 @@
   --lh-xx-sm: 11px;
   --lh-xxx-sm: 10px;
   --lh-xxxx-sm: 8px;
+
+  /* Font weight */
+--fw-regular: 400;
+--fw-medium: 500;
+--fw-semibold: 600;
+--fw-bold: 700;
 }
+
+

@@ -36,7 +36,7 @@
 }
 
 .navbar__item:hover {
-  background: var(--clr-secondary-lt);
+  background: var(--purple-200);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -54,7 +54,7 @@
 }
 
 .navbar__item:hover .navbar__link {
-  color: var(--clr-secondary-dk);
+  color: var(--purple-400);
 }
 
 .navbar__icon {

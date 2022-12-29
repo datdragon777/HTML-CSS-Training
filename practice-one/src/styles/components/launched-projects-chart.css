@@ -6,7 +6,7 @@
   right: 4px;
   border: var(--box-outline);
   border-radius: 4px;
-  background-color: var(--clr-white);
+  background-color: var(--white);
 }
 
 .sub-chart__title {
@@ -28,7 +28,7 @@
   margin-right: 21px;
   position: relative;
   border-radius: 4px 4px 0 0;
-  background-color: var(--clr-blue-ltst);
+  background-color: var(--blue);
 }
 
 .data__project-item:last-child {
@@ -56,16 +56,16 @@
   font-family: "Inter-medium";
   font-size: var(--fs-xxxxx-sm);
   line-height: var(--lh-xxxx-sm);
-  color: var(--clr-primary-lt);
+  color: var(--blue-500);
 }
 
 .data__project-item:hover {
-  background-color: var(--clr-green-dk);
+  background-color: var(--green-300);
 }
 
 .data__project-item:hover::before,
 .data__project-item:hover::after {
-  color: var(--clr-green-dk);
+  color: var(--green-300);
 }
 
 .data__project-item::before {
