@@ -68,16 +68,24 @@
   text-align: center;
 }
 
+.hero__form {
+  display: flex;
+}
+
 .hero__input {
   width: 272px;
   padding: 18px 24px;
   font-family: "Inter-regular";
   font-size: var(--fs-md);
   line-height: var(--lh-md);
-  color: var(--clr-blue-lt);
+  color: var(--clr-primary);
   background: var(--clr-white);
-  border: var(--border);
+  border: var(--box-outline);
   border-radius: 4px 0px 0px 4px;
+}
+
+.hero__input::placeholder {
+  color: var(--clr-blue-lt);
 }
 
 .hero__input:focus {
