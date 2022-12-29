@@ -25,6 +25,7 @@
   padding: 18px 21px;
   background-color: var(--clr-secondary);
   border: none;
+  cursor: pointer;
 }
 
 .data__charts {
