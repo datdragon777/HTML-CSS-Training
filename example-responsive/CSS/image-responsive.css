@@ -1,0 +1,13 @@
+.img-res {
+    display: block;
+    margin: 10px;
+}
+
+.img-res--one {
+    max-width: 100%;
+}
+
+.img-res--two {
+    max-width: 400px;
+    width: 100%;
+}
