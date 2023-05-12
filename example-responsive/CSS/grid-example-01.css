@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+.container {
+  background: linear-gradient(45deg, blueviolet, lightgreen);
+  padding: 15px 9%;
+  padding-bottom: 100px;
+  height: 100vh;
+}
+
+.container .heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 50px;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .box-container {
+  display: grid;
+  grid-template-areas: 
+  'html css js'
+  'sass jquery reactjs';
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+}
+
+.container .box-container .box {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.box:first-child {
+    grid-area: html;
+}
+
+.box:nth-child(2) {
+    grid-area: css;
+}
+
+.box:nth-child(3) {
+    grid-area: js;
+}
+
+.box:nth-child(4) {
+    grid-area: sass;
+}
+
+.box:nth-child(5) {
+    grid-area: jquery;
+}
+
+.box:last-child {
+    grid-area: reactjs;
+}
+
+.box img {
+  height: 80px;
+}
+
+.box h3 {
+  color: #444;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.box h3 {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.box .btn:hover {
+    letter-spacing: 1px;
+}
+
+.box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
