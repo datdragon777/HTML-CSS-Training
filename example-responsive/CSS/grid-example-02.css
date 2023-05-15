@@ -52,10 +52,6 @@ body {
     grid-row: span 1;
 }
 
-.container .box:nth-child(2) {
-    
-}
-
 .container .box:nth-child(4) {
     grid-column: span 2;
     
