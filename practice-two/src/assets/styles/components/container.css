@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .container {
+    max-width: calc(100% - 3rem);
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 94%;
+  }
+}
+
+/* Laptops/desktops (Large devices) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
