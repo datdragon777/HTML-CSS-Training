@@ -3,5 +3,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800;900&display=swap');
 
 :root {
-  
+  /* Font Families */
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Raleway", sans-serif;
+
+  /* Font Weight */
+  --fw-lighter: 500;
+  --fw-light: 700;
+  --fw-bold: 800;
+  --fw-bolder: 900;
+
+  /* Colors */
+  --cl-white: #FFF;
+  --cl-black: #000;
+  --cl-green: #4BA87D;
+  --cl-lightgray: #F7F7F7;
+
+  --primary-color: var(--cl-black);
+  --secondary-color: var(--cl-white);
+  --dynamic-color: var(--cl-green);
+  --bg-color: var(--cl-lightgray);
+
+  /* Font Sizes */
+  --fs-xs: 6px;
+  --fs-sm: 9px;
+  --fs-xm: 11px;
+  --fs-md: 12px;
+  --fs-lg: 13px;
+  --fs-xl: 14px;
+  --fs-xx-lg: 15px;
+  /* Font Sizes Heading */
+  --fs-hd-4: 22px;
+  --fs-hd-3: 28px;
+  --fs-hd-2: 36px;
+  --fs-hd-1: 42px;
+
+  /* Line Height */
+  --lh-xxs: 7px;
+  --lh-xs: 11px;
+  --lh-sm: 13px;
+  --lh-md: 15px;
+  --lh-lg: 19px;
+  --lh-xl: 26px;
+  --lh-xxl: 29px;
+  /* Line Height Heading */
+  --lh-hd-04: 31px;
+  --lh-hd-03: 36px;
+  --lh-hd-02: 46px;
+  --lh-hd-01: 48px;
 }
