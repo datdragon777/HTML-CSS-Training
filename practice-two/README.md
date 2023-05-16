@@ -1,5 +1,4 @@
-# HTML-CSS-PRACTICE_ONE #
-Introduce dashboard app landing page
+# HTML-CSS-PRACTICE_TWO #
 
 ## Target: ##
 - Apply CSS units
