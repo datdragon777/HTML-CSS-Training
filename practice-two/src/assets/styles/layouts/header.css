@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .header {
+    padding: 15px 13px 22px;
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Laptops/desktops (Large devices) */
+@media only screen and (min-width: 1200px) {
+
+}

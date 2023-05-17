@@ -1,6 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar__img {
+  width: 100%;
+  height: auto;
+}
+
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
 
+  .navbar__brand {
+    max-width: 170px;
+    height: auto;
+  }
+
+  .navbar__list {
+    display: none;
+  }
 }
 
 /* Landscape tablets (Medium devices) */
