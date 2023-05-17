@@ -2,6 +2,8 @@
   color: var(--secondary-color);
   border: 3px solid var(--dynamic-color);
   background-color: var(--dynamic-color);
+  text-transform: uppercase;
+  font-weight: var(--fw-bolder);
 }
 
 .btn:hover {
@@ -9,6 +11,11 @@
   transition: 0.3s;
   background-color: var(--secondary-color);
   color: var(--dynamic-color);
+}
+
+.btn--nav {
+  font-size: 0.75rem;
+  padding: 3px 11px;
 }
 
 /* Portrait tablets and large phones (Small devices) */
