@@ -35,7 +35,6 @@
   .intro__box {
     background-size: 100% auto;
     aspect-ratio: 1.78/1;
-    margin-bottom: 8px;
   }
 
   .intro__heading {
@@ -50,6 +49,10 @@
     top: -49px;
   }
 
+  .intro__sub {
+    margin: 16px 0;
+  }
+
   .intro__sub--show {
     display: none;
   }
@@ -61,7 +64,7 @@
   .intro__desc {
     font-size: var(--fs-md);
     line-height: var(--lh-md);
-    margin: 16px 0;
+    margin-bottom: 16px;
   }
 
   .btn__box {
