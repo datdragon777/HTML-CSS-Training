@@ -20,7 +20,14 @@
 
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
-
+  .btn--banner {
+    background-color: var(--secondary-color);
+    color: var(--dynamic-color);
+    border: 3px solid var(--secondary-color);
+    padding: 5px 0px;
+    width: 65px;
+    font-size: 6px;
+  }
 }
 
 /* Landscape tablets (Medium devices) */
