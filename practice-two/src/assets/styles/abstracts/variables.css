@@ -34,7 +34,7 @@
   --fs-xx-lg: 15px;
   /* Font Sizes Heading */
   --fs-hd-4: 22px;
-  --fs-hd-3: 28px;
+  --fs-hd-3: 1.75rem; /* 28px */
   --fs-hd-2: 2.25rem; /* 36px */
   --fs-hd-1: 42px;
 
@@ -47,7 +47,7 @@
   --lh-xl: 26px;
   --lh-xxl: 29px;
   /* Line Height Heading */
-  --lh-hd-04: 31px;
+  --lh-hd-04: 1.938rem; /* 31px */
   --lh-hd-03: 36px;
   --lh-hd-02: 46px;
   --lh-hd-01: 48px;
