@@ -16,6 +16,11 @@
     margin-bottom: 21px;
   }
 
+  .heading-card {
+    line-height: var(--lh-hd-04);
+    font-size: var(--fs-hd-3);
+  }
+
 }
 
 /* Landscape tablets (Medium devices) */
