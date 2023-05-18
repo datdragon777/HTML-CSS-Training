@@ -61,8 +61,7 @@
   .intro__desc {
     font-size: var(--fs-md);
     line-height: var(--lh-md);
-    margin: 8px 0;
-    padding: 8px 0;
+    margin: 16px 0;
   }
 
   .btn__box {
