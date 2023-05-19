@@ -10,13 +10,23 @@
   font-size: 1.4rem;
 }
 
+.heading--center {
+  text-align: center;
+}
+
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
   .heading--mb {
     margin-bottom: 21px;
   }
 
-  .heading-card {
+  .heading--center {
+    margin-bottom: 32px;
+    font-size: 1.625rem;
+    line-height: var(--lh-hd-03);
+  }
+
+  .heading--card {
     line-height: var(--lh-hd-04);
     font-size: var(--fs-hd-3);
   }
