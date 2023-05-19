@@ -1,0 +1,50 @@
+.brand {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand__logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .brand {
+    padding: 10px 0 20px;
+  }
+
+  .brand__logos {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+  }
+
+  .logo__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .logo__item:last-child:nth-child(odd) {
+    grid-column: 1 / 3;
+  }
+
+  .logo__img {
+    /* width: 60%; */
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+}
+
+/* Laptops/desktops (Large devices) */
+@media only screen and (min-width: 1200px) {
+}

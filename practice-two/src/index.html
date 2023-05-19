@@ -37,7 +37,7 @@
       <section class="intro">
         <div class="container">
           <div class="intro__content">
-            <div class="intro__box">
+            <article class="intro__box">
               <div class="intro__heading">
                 <h1 class="heading intro__title">
                   Create Stunning Email Campaigns
@@ -55,7 +55,7 @@
                   </button>
                 </div>
               </div>
-            </div>
+            </article>
             <div class="intro__sub intro__sub--hidden">
               <p class="intro__desc">
                 Create and launch email campaigns that captivate your customers
@@ -87,10 +87,10 @@
       <!-- Start Info section -->
       <section class="info">
         <div class="container">
-          <!-- Start Card -->
+          <!-- Start Card Info -->
           <div class="cards cards--option">
             <div class="row">
-              <div class="card col-sm-8">
+              <article class="card col-sm-8">
                 <img
                   class="card__img"
                   src="./assets/images/src-01.png"
@@ -105,10 +105,10 @@
                     >Learn more ></a
                   >
                 </div>
-              </div>
+              </article>
             </div>
             <div class="row">
-              <div class="card col-sm-8">
+              <article class="card col-sm-8">
                 <img
                   class="card__img"
                   src="./assets/images/src-02.png"
@@ -124,11 +124,11 @@
                     >Learn more ></a
                   >
                 </div>
-              </div>
+              </article>
             </div>
             <div class="row">
-              <div class="card col-sm-8">
-                <h1 class="heading heading-card">
+              <article class="card col-sm-8">
+                <h1 class="heading heading--card">
                   The source for proven, engaging email campaigns
                 </h1>
                 <div class="card__desc desc--bg">
@@ -138,16 +138,103 @@
                     tailored for your business.
                   </div>
                 </div>
+              </article>
+            </div>
+          </div>
+          <!-- End Card Info -->
+          <!-- Start Card Member -->
+          <div class="members">
+            <div class="member col-sm-8">
+              <img
+                class="member__img"
+                src="./assets/images/member-01.png"
+                alt="member-01"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Frankie</h4>
+                <div class="member__desc">Member since 2016</div>
+              </div>
+            </div>
+
+            <div class="member col-sm-8">
+              <img
+                class="member__img"
+                src="./assets/images/member-02.png"
+                alt="member-02"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Camile</h4>
+                <div class="member__desc">Member since 2012</div>
+              </div>
+            </div>
+
+            <div class="member col-sm-8">
+              <img
+                class="member__img"
+                src="./assets/images/member-03.png"
+                alt="member-03"
+              />
+              <div class="member__info">
+                <h4 class="member__name">Elayne</h4>
+                <div class="member__desc">Member since 2018</div>
               </div>
             </div>
           </div>
-          <!-- End Card -->
-          <!-- Start Members -->
-          <div class="members"></div>
-          <!-- End Members -->
+          <!-- End Card Member -->
         </div>
       </section>
       <!-- End Info section -->
+
+      <!-- Start Form section -->
+      <section class="form">
+        <div class="container">
+          <h1 class="heading heading--center">
+            Learn how others are reaching their audience easier than ever
+            before.
+          </h1>
+          <form class="form__box">
+            <div class="form__input">
+              <input
+                type="email"
+                class="form__email col-sm-8"
+                placeholder="Enter your email"
+              />
+              <div id="resultText" class="form__confirm">
+                Thanks! Email received.
+              </div>
+            </div>
+            <button type="button" class="btn btn--form" onclick="checkEmail()">
+              join our list
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- End Form section -->
+
+      <!-- Start Brand section -->
+      <section class="brand">
+        <div class="container">
+          <h1 class="heading heading--center">All the best brands already use us.</h1>
+          <div class="brand__logos">
+            <div class="logo__item">
+              <img src="./assets/images/paris.png" alt="" class="logo__img">
+            </div>
+            <div class="logo__item">
+              <img src="./assets/images/vodka.png" alt="" class="logo__img">
+            </div>
+            <div class="logo__item">
+              <img src="./assets/images/questai.png" alt="" class="logo__img">
+            </div>
+            <div class="logo__item">
+              <img src="./assets/images/radiotee.png" alt="" class="logo__img">
+            </div>
+            <div class="logo__item">
+              <img src="./assets/images/gamecommerce.png" alt="" class="logo__img">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Brand section -->
     </main>
     <!-- End Main -->
   </body>
