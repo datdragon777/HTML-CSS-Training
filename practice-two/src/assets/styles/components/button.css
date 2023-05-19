@@ -28,6 +28,10 @@
     width: 65px;
     font-size: 6px;
   }
+
+  .btn--form {
+    padding: 14px 22px;
+  }
 }
 
 /* Landscape tablets (Medium devices) */
