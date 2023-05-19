@@ -1,0 +1,68 @@
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form__email {
+  outline: none;
+  border: 1px solid #9F9F9F;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+}
+
+.form__email::placeholder {
+  font-family: var(--font-secondary);
+  font-weight: var(--fw-lighter);
+  color: var(--primary-color);
+}
+
+.form__confirm {
+  visibility: visible;
+  margin: 7px 0;
+  color: var(--dynamic-color);
+  font-weight: var(--fw-lighter);
+  font-size: var(--fs-md);
+  line-height: var(--lh-sm);
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .form {
+    padding: 10px 0;
+  }
+
+  .form__box {
+    flex-direction: column;
+  }
+
+  .form__email {
+    width: inherit;
+    margin: 0 15px;
+    padding: 13px 15px;
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* Laptops/desktops (Large devices) */
+@media only screen and (min-width: 1200px) {
+}
