@@ -6,6 +6,7 @@
 }
 
 .form__box {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +53,6 @@
   }
 
   .form__email {
-    margin: 0 15px;
     padding: 13px 15px;
   }
 }
