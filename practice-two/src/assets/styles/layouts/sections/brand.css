@@ -15,7 +15,7 @@
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
   .brand {
-    padding: 10px 0 20px;
+    padding: 40px 0;
   }
 
   .brand__logos {
@@ -37,7 +37,7 @@
   }
 
   .logo__img {
-    /* width: 60%; */
+    max-width: 70%;
   }
 }
 
