@@ -13,6 +13,15 @@
   color: var(--dynamic-color);
 }
 
+.btn--hover {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: var(--secondary-color);
+  color: var(--dynamic-color);
+  border: none;
+  padding: 14px 23px;
+}
+
 .btn--nav {
   font-size: 0.75rem;
   padding: 3px 11px;

@@ -7,7 +7,6 @@
 
 .heading--white {
   color: var(--secondary-color);
-  font-size: 1.4rem;
 }
 
 .heading--center {
@@ -20,7 +19,11 @@
     margin-bottom: 21px;
   }
 
-  .heading--center {
+  .heading--banner {
+    font-size: 1.4rem;
+  }
+
+  .heading--another {
     margin-bottom: 32px;
     font-size: 1.625rem;
     line-height: var(--lh-hd-03);
@@ -29,6 +32,12 @@
   .heading--card {
     line-height: var(--lh-hd-04);
     font-size: var(--fs-hd-3);
+  }
+
+  .heading--planning {
+    font-size: var(--fs-hd-1);
+    line-height: var(--lh-hd-01);
+    margin-bottom: 28px;
   }
 
 }
