@@ -26,7 +26,7 @@
 
   /* Font Sizes */
   --fs-xs: 6px;
-  --fs-sm: 9px;
+  --fs-sm: 0.563rem; /* 9px */
   --fs-xm: 11px;
   --fs-md: 0.75rem; /* 12px */
   --fs-lg: 13px;
@@ -36,11 +36,11 @@
   --fs-hd-4: 1.375rem; /* 22px */
   --fs-hd-3: 1.75rem; /* 28px */
   --fs-hd-2: 2.25rem; /* 36px */
-  --fs-hd-1: 42px;
+  --fs-hd-1: 2.625rem; /* 42px */
 
   /* Line Height */
   --lh-xxs: 7px;
-  --lh-xs: 11px;
+  --lh-xs: 0.688rem; /* 11px */
   --lh-sm: 13px;
   --lh-md: 1rem; /* 16px */
   --lh-lg: 19px;
@@ -50,5 +50,5 @@
   --lh-hd-04: 1.938rem; /* 31px */
   --lh-hd-03: 2.25rem; /* 36px */
   --lh-hd-02: 46px;
-  --lh-hd-01: 48px;
+  --lh-hd-01: 3rem; /* 48px */
 }
