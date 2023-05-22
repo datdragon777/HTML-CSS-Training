@@ -31,6 +31,7 @@
 
   .footer__logo {
     max-width: 52%;
+    margin-bottom: 20px;
   }
 
   .footer__wrapper::after {
@@ -40,9 +41,6 @@
   .footer__info {
     display: grid;
     grid-template-columns: auto auto;
-  }
-
-  .footer__info {
     font-size: var(--fs-md);
     line-height: var(--lh-sm);
   }
