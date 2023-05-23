@@ -12,18 +12,29 @@
     <header class="header">
       <div class="container">
         <nav class="navbar">
-          <div class="navbar__brand">
-            <a class="navbar__logo" href="javascript:void(0)">
-              <img
-                class="navbar__img"
-                src="./assets/images/NinjaMail.png"
-                alt="NinjaMail"
-              />
-            </a>
-          </div>
+          <a class="navbar__logo col-sm-5 col-md-3" href="javascript:void(0)">
+            <img
+              class="navbar__img"
+              src="./assets/images/ninja-mail.png"
+              alt="NinjaMail"
+            />
+          </a>
 
           <div class="navbar__body">
-            <ul class="navbar__list"></ul>
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="javascript:void(0)" class="navbar__link">features</a>
+              </li>
+              <li class="navbar__item">
+                <a href="javascript:void(0)" class="navbar__link">pricing</a>
+              </li>
+              <li class="navbar__item">
+                <a href="javascript:void(0)" class="navbar__link">services</a>
+              </li>
+              <li class="navbar__item">
+                <a href="javascript:void(0)" class="navbar__link">partners</a>
+              </li>
+            </ul>
             <button class="btn btn--nav" type="button">sign up free</button>
           </div>
         </nav>
@@ -32,27 +43,31 @@
     <!-- End Header section -->
 
     <!-- Start Main -->
-    <main>
+    <main class="main">
       <!-- Start Intro section -->
       <section class="intro">
         <div class="container">
           <div class="intro__content">
             <article class="intro__box">
-              <div class="intro__heading">
-                <h1 class="heading intro__title">
-                  Create Stunning Email Campaigns
-                </h1>
-              </div>
-              <div class="intro__sub intro__sub--show">
-                <p class="intro__desc">
-                  Create and launch email campaigns that captivate your
-                  customers in just a few clicks.
-                </p>
-                <div class="btn__box">
-                  <button class="btn btn__intro" type="button">try now</button>
-                  <button class="btn btn__intro" type="button">
-                    get a demo
-                  </button>
+              <div class="intro__body col-md-6">
+                <div class="intro__heading">
+                  <h1 class="heading intro__title">
+                    Create Stunning Email Campaigns
+                  </h1>
+                </div>
+                <div class="intro__sub intro__sub--show col-md-10">
+                  <p class="intro__desc">
+                    Create and launch email campaigns that captivate your
+                    customers in just a few clicks.
+                  </p>
+                  <div class="btn__box">
+                    <button class="btn btn__intro" type="button">
+                      try now
+                    </button>
+                    <button class="btn btn__intro" type="button">
+                      get a demo
+                    </button>
+                  </div>
                 </div>
               </div>
             </article>
@@ -264,7 +279,11 @@
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__logo">
-            <img class="logo__img" src="./assets/images/NinjaMail.png" alt="NinjaMail">
+            <img
+              class="logo__img"
+              src="./assets/images/ninja-mail.png"
+              alt="NinjaMail"
+            />
           </div>
 
           <div class="footer__info">
@@ -301,7 +320,8 @@
         </div>
         <div class="footer__term">
           <div class="term__text">
-            NinjaMail is a sample project for Quest AI. &#169; 2019 Quest AI, All rights reserved.
+            NinjaMail is a sample project for Quest AI. &#169; 2019 Quest AI,
+            All rights reserved.
           </div>
 
           <ul class="term__option">
@@ -312,6 +332,5 @@
       </div>
     </footer>
     <!-- End Footer -->
-
   </body>
 </html>
