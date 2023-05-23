@@ -43,6 +43,15 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
+  .brand {
+    margin-bottom: 60px;
+  }
+
+  .brand__logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
 }
 
 /* Laptops/desktops (Large devices) */
