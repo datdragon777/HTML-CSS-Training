@@ -18,12 +18,6 @@
 
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
-
-  .navbar__brand {
-    max-width: 52%;
-    height: auto;
-  }
-
   .navbar__list {
     display: none;
   }
@@ -31,10 +25,34 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
+  .navbar__body {
+    display: flex;
+  }
 
+  .navbar__list {
+    display: block;
+    display: flex;
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    font-size: var(--fs-xm);
+  }
+
+  .navbar__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    padding: 5px;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+  }
+
+  .navbar__item:hover {
+    border-bottom: 3px solid var(--dynamic-color);
+  }
 }
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
-
 }
