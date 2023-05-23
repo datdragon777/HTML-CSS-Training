@@ -59,7 +59,20 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
+  .form__box {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
+  .form__input {
+    width: 275px;
+    margin-right: 17px;
+    align-items: flex-start;
+  }
+
+  .form__confirm {
+    margin-left: 18px;
+  }
 }
 
 /* Laptops/desktops (Large devices) */
