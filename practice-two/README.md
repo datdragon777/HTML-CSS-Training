@@ -12,12 +12,16 @@
 [Figma](https://www.figma.com/file/tst5tL3prGZKHCP9ASqnHl/NinjaMail-(Community)-(Community)?type=design&node-id=1-362&t=SIFv7b0c0t7jazuv-0)
 
 ## Deploy:
-[Here]()
+[Here](https://aesthetic-caramel-090675.netlify.app/)
 
 ## Information: ##
 - Time line: 15/05/2023 -> 00/05/2023
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
+
+## Environment: ##
+- Node: v18.14.1
+- Parcel: v2.8.3
 
 ## Folder structure ##
 practice-two
@@ -35,7 +39,8 @@ practice-two
             |-- components
                 |-- all.css
                 |-- button.css
-                |-- card.css
+                |-- card-info.css
+                |-- card-member.css
                 |-- container.css
                 |-- heading.css
                 |-- navbar.css
@@ -48,6 +53,7 @@ practice-two
                     |-- brand.css
                     |-- form.css
                     |-- info.css
+                    |-- intro.css
                     |-- planing.css
                 |-- all.css
                 |-- footer.css
