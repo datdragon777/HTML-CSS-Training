@@ -19,7 +19,6 @@
 .card__text {
   color: var(--primary-color);
   font-weight: var(--fw-lighter);
-  height: 79px;
 }
 
 .card-link {
@@ -40,7 +39,6 @@
   }
 
   .row {
-    width: 100%;
     display: flex;
     margin-bottom: 12px;
   }
@@ -65,6 +63,10 @@
     padding: 17px 20px;
   }
 
+  .card__text {
+    height: 70px;
+  }
+
   .desc--bg {
     padding: 0;
     margin-top: 17px;
@@ -83,7 +85,41 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
+  .row {
+    display: block;
+    width: 30%;
+    margin-bottom: 0;
+  }
+
+  .row:first-child
+  .row:nth-child(2),
+  .row:last-child  {
+    justify-content: unset;
+  }
+
+  .row:first-child {
+    align-self: flex-start;
+  }
+
+  .row:nth-child(2) {
+    align-self: flex-end;
+  }
+
+  .cards {
+    flex-wrap: nowrap;
+    min-height: 352px;
+    margin-bottom: 64px;
+  }
+
+  .card {
+    width: unset;
+  }
+
+  .card__text {
+    height: 84px;
+  }
 }
+
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
