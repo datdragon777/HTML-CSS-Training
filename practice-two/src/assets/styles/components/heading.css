@@ -44,7 +44,29 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
+  .heading--banner {
+    font-size: 2.375rem;
+  }
 
+  .heading--mb {
+    margin-bottom: 41px;
+  }
+
+  .heading--another {
+    font-size: var(--fs-hd-3);
+  }
+
+  .heading--form {
+    padding: 0 60px;
+  }
+
+  .heading--brand {
+    padding: 0 184px;
+  }
+
+  .heading--planning {
+    margin-bottom: 46px;
+  }
 }
 
 /* Laptops/desktops (Large devices) */
