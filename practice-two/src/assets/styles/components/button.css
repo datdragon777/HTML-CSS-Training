@@ -23,7 +23,7 @@
 }
 
 .btn--nav {
-  font-size: 0.75rem;
+  font-size: var(--fs-xm);
   padding: 3px 11px;
 }
 
