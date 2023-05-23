@@ -26,7 +26,9 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
-
+  .banner__box {
+    width: 85%;
+  }
 }
 
 /* Laptops/desktops (Large devices) */
