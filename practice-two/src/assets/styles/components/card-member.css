@@ -68,6 +68,15 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
+  .members {
+    flex-direction: row;
+  }
+
+  .member {
+    margin-bottom: 0;
+    width: 32%;
+  }
+
 }
 
 /* Laptops/desktops (Large devices) */
