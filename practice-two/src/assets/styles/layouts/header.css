@@ -16,7 +16,9 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
-
+  .header {
+    padding: 23px 0;
+  }
 }
 
 /* Laptops/desktops (Large devices) */
