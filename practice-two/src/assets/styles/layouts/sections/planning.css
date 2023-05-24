@@ -21,5 +21,8 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .planning {
+    padding: 100px 0;
+  }
 }
 
