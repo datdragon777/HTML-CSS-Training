@@ -55,4 +55,17 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .navbar__list {
+    font-size: 1.063rem;
+  }
+
+  .navbar__item {
+    padding-bottom: 6px;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+  }
+
+  .navbar__item:hover {
+    border-bottom: 5px solid var(--dynamic-color);
+  }
 }
