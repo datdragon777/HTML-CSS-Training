@@ -37,7 +37,7 @@
   }
 
   .logo__img {
-    max-width: 70%;
+    max-width: 100%;
   }
 }
 
@@ -50,7 +50,7 @@
   .brand__logos {
     display: flex;
     justify-content: space-between;
-    gap: 0;
+    gap: 20px;
   }
 }
 
