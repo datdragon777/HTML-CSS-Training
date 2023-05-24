@@ -1,4 +1,4 @@
-.footer {
+.footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,7 @@
 .footer__term {
   display: flex;
   width: 100%;
+  font-weight: var(--fw-light);
 }
 
 .footer__term::before {
@@ -33,7 +34,7 @@
 
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
-  .footer {
+  .footer-content {
     padding: 50px 0;
   }
 
@@ -121,4 +122,18 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .footer__info {
+    font-size: 1.188rem;
+    line-height: 1.375rem;
+    gap: 60px;
+  }
+
+  .footer__logo {
+    width: 200px;
+  }
+
+  .footer__term {
+    font-size: var(--fs-xx-lg);
+    line-height: var(--lh-lg);
+  }
 }

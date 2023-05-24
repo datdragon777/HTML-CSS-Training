@@ -9,10 +9,13 @@
   </head>
   <body>
     <!-- Start Header section -->
-    <header class="header">
+    <header class="header-content">
       <div class="container">
         <nav class="navbar">
-          <a class="navbar__logo col-sm-5 col-md-3" href="javascript:void(0)">
+          <a
+            class="navbar__logo col-sm-5 col-md-3 col-3"
+            href="javascript:void(0)"
+          >
             <img
               class="navbar__img"
               src="./assets/images/ninja-mail.png"
@@ -43,7 +46,7 @@
     <!-- End Header section -->
 
     <!-- Start Main -->
-    <main class="main">
+    <main class="main-content">
       <!-- Start Intro section -->
       <section class="intro">
         <div class="container">
@@ -61,10 +64,10 @@
                     customers in just a few clicks.
                   </p>
                   <div class="btn__box">
-                    <button class="btn btn__intro" type="button">
+                    <button class="btn btn--intro" type="button">
                       try now
                     </button>
-                    <button class="btn btn__intro" type="button">
+                    <button class="btn btn--intro" type="button">
                       get a demo
                     </button>
                   </div>
@@ -104,62 +107,58 @@
         <div class="container">
           <!-- Start Card Info -->
           <div class="cards">
-            <div class="row">
-              <article class="card col-sm-8">
+            <article class="card col-sm-8 col-md-4 col-4">
+              <div class="card__header">
                 <img
                   class="card__img"
                   src="./assets/images/src-01.png"
                   alt="src-image"
                 />
-                <div class="card__desc">
-                  <div class="card__text">
-                    Launch campaigns but also find new customers. Our unique
-                    platform handles campaigns from start to end.
-                  </div>
-                  <a href="javascript:void(0)" class="card-link"
-                    >Learn more ></a
-                  >
+              </div>
+              <div class="card__body">
+                <div class="card__text">
+                  Launch campaigns but also find new customers. Our unique
+                  platform handles campaigns from start to end.
                 </div>
-              </article>
-            </div>
-            <div class="row">
-              <article class="card col-sm-8">
+                <a href="javascript:void(0)" class="card__link">Learn more ></a>
+              </div>
+            </article>
+
+            <article class="card col-sm-8 col-md-4 col-4">
+              <div class="card__header">
                 <img
                   class="card__img"
                   src="./assets/images/src-02.png"
                   alt="src-image"
                 />
-                <div class="card__desc">
-                  <div class="card__text">
-                    Start building and sharing with your team today. NinjaMail
-                    is renowned for its industry leading team collaboration
-                    tools.
-                  </div>
-                  <a href="javascript:void(0)" class="card-link"
-                    >Learn more ></a
-                  >
+              </div>
+
+              <div class="card__body">
+                <div class="card__text">
+                  Start building and sharing with your team today. NinjaMail is
+                  renowned for its industry leading team collaboration tools.
                 </div>
-              </article>
-            </div>
-            <div class="row">
-              <article class="card col-sm-8">
-                <h1 class="heading heading--card">
-                  The source for proven, engaging email campaigns
-                </h1>
-                <div class="card__desc desc--bg">
-                  <div class="card__text">
-                    Whether you’re a startup, small business, e-commerce store,
-                    or want to promote your app, NinjaMail has the feature set
-                    tailored for your business.
-                  </div>
+                <a href="javascript:void(0)" class="card__link">Learn more ></a>
+              </div>
+            </article>
+
+            <article class="card col-sm-8 col-md-4 col-4">
+              <h1 class="heading heading--card">
+                The source for proven, engaging email campaigns
+              </h1>
+              <div class="card__body desc--bg">
+                <div class="card__text">
+                  Whether you’re a startup, small business, e-commerce store, or
+                  want to promote your app, NinjaMail has the feature set
+                  tailored for your business.
                 </div>
-              </article>
-            </div>
+              </div>
+            </article>
           </div>
           <!-- End Card Info -->
           <!-- Start Card Member -->
           <div class="members">
-            <div class="member col-sm-8">
+            <div class="member col-sm-8 col-md-4">
               <img
                 class="member__img"
                 src="./assets/images/member-01.png"
@@ -171,7 +170,7 @@
               </div>
             </div>
 
-            <div class="member col-sm-8">
+            <div class="member col-sm-8 col-md-4">
               <img
                 class="member__img"
                 src="./assets/images/member-02.png"
@@ -183,7 +182,7 @@
               </div>
             </div>
 
-            <div class="member col-sm-8">
+            <div class="member col-sm-8 col-md-4">
               <img
                 class="member__img"
                 src="./assets/images/member-03.png"
@@ -211,16 +210,14 @@
             <div class="form__input">
               <input
                 type="email"
-                class="form__email col-sm-10 col-md-12"
+                class="form__email col-sm-10 col-md-12 col-12"
                 placeholder="Enter your email"
               />
-              <div id="resultText" class="form__confirm">
+              <div class="form__confirm">
                 Thanks! Email received.
               </div>
             </div>
-            <button type="button" class="btn btn--form">
-              join our list
-            </button>
+            <button type="button" class="btn btn--form">join our list</button>
           </form>
         </div>
       </section>
@@ -267,7 +264,7 @@
           <h1 class="heading heading--white heading--planning heading--center">
             Get started today!
           </h1>
-          <button class="btn btn--hover">pick a plan</button>
+          <button class="btn btn--hover btn--planning">pick a plan</button>
         </div>
       </section>
       <!-- End Planning section -->
@@ -275,7 +272,7 @@
     <!-- End Main -->
 
     <!-- Start Footer -->
-    <footer class="footer">
+    <footer class="footer-content">
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__logo">
