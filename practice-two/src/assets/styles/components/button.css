@@ -27,6 +27,7 @@
   padding: 3px 11px;
 }
 
+
 .btn--banner {
   background-color: var(--secondary-color);
   color: var(--dynamic-color);
@@ -48,6 +49,17 @@
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
+  .btn__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn--intro {
+    width: 143px;
+    height: auto;
+    padding: 9px 0;
+  }
+
   .btn--banner {
     padding: 12px 24px;
     width: 25%;
@@ -61,4 +73,33 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .btn--nav {
+    font-size: 1.063rem;
+    padding: 5px 20px;
+  }
+
+  .btn--intro {
+    width: 200px;
+    padding: 15px 0;
+    font-size: var(--fs-hd-4);
+    line-height: var(--lh-xl);
+  }
+
+  .btn--banner {
+    width: 22%;
+    font-size: var(--fs-hd-4);
+    line-height: var(--lh-xl);
+  }
+
+  .btn--form {
+    padding: 18px 35px;
+    font-size: var(--fs-hd-4);
+    line-height: var(--lh-xl);
+  }
+
+  .btn--planning {
+    padding: 19px 33px;
+    font-size: var(--fs-hd-4);
+    line-height: var(--lh-xl);
+  }
 }
