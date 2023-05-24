@@ -27,6 +27,7 @@
   background-color: var(--secondary-color);
 }
 
+.form__email,
 .form__email::placeholder {
   font-family: var(--font-secondary);
   font-weight: var(--fw-lighter);
@@ -77,4 +78,22 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .form__input {
+    width: 450px;
+  }
+
+  .form__email {
+    padding: 19px 30px;
+  }
+
+  .form__email,
+  .form__email::placeholder,
+  .form__confirm {
+    font-size: var(--fs-hd-4);
+    line-height: var(--lh-xl);
+  }
+
+  .form__confirm {
+    margin-top: 20px;
+  }
 }
