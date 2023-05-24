@@ -71,5 +71,23 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .heading--banner {
+    font-size: 3.75rem;
+    line-height: 5rem;
+  }
 
+  .heading--another {
+    font-size: 3rem;
+    line-height: var(--lh-hd-01);
+    margin-bottom: 50px;
+  }
+
+  .heading--brand {
+    padding: 0 250px;
+  }
+
+  .heading--planning {
+    font-size: 3.75rem;
+    line-height: 5rem;
+  }
 }
