@@ -8,7 +8,6 @@
 .member {
   position: relative;
   display: flex;
-  width: auto;
 }
 
 .member::after {
@@ -23,9 +22,12 @@
     z-index: 1;
 }
 
+.member__header {
+  width: 100%;
+}
+
 .member__img {
-  /* max-width: -webkit-fill-available; */
-  max-width: 100%;
+  width: 100%;
 }
 
 .member__info {
@@ -70,15 +72,29 @@
 @media only screen and (min-width: 576px) {
   .members {
     flex-direction: row;
+    gap: 20px;
   }
 
   .member {
     margin-bottom: 0;
-    width: 32%;
   }
 
 }
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .members {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .member__name {
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+  }
+
+  .member__desc {
+    font-size: 1.188rem;
+    line-height: 1.375rem;
+  }
 }
