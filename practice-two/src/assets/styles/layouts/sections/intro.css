@@ -70,17 +70,6 @@
     line-height: var(--lh-md);
     margin-bottom: 16px;
   }
-
-  .btn__box {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .btn__intro {
-    width: 143px;
-    height: auto;
-    padding: 9px 0;
-  }
 }
 
 /* Landscape tablets (Medium devices) */
@@ -90,6 +79,7 @@
   }
 
   .intro__title {
+    width: 100%;
     position: static;
     font-size: 2.375rem;
   }
@@ -104,10 +94,6 @@
     align-items: center;
   }
 
-  .intro__title {
-    width: 100%;
-  }
-
   .intro__sub--show {
     display: block;
   }
@@ -119,4 +105,22 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .intro__box {
+    background-size: 62%;
+  }
+
+  .intro__title {
+    font-size: 3.688rem;
+    line-height: 4.438rem;
+  }
+
+  .intro__sub {
+    margin: 23px 0;
+  }
+
+  .intro__desc {
+    margin-bottom: 35px;
+    font-size: 1.188rem;
+    line-height: var(--lh-xl);
+  }
 }
