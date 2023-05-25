@@ -16,6 +16,7 @@
 }
 
 .card__img {
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -66,10 +67,8 @@
 
   .card:last-child {
     align-self: center;
-  }
-
-  .card:last-child {
     box-shadow: none;
+
   }
 
   .card__body {
@@ -115,7 +114,7 @@
 @media only screen and (min-width: 1200px) {
   .cards {
     gap: 47px;
-    min-height: 500px;
+    min-height: 550px;
   }
 
   .card {

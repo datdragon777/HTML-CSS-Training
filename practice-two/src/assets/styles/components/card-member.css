@@ -86,6 +86,7 @@
   .members {
     flex-direction: row;
     gap: 32px;
+    margin-top: 66px;
   }
 
   .member__name {
