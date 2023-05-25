@@ -4,6 +4,7 @@
   background-color: var(--dynamic-color);
   text-transform: uppercase;
   font-weight: var(--fw-bolder);
+  white-space: nowrap;
 }
 
 .btn:hover {
@@ -51,17 +52,17 @@
 @media only screen and (min-width: 576px) {
   .btn__box {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .btn--intro {
     width: 143px;
     height: auto;
     padding: 9px 0;
+    margin-right: 13px;
   }
 
   .btn--banner {
-    padding: 12px 24px;
     width: 25%;
     font-size: var(--fs-lg);
   }
@@ -83,10 +84,12 @@
     padding: 15px 0;
     font-size: var(--fs-hd-4);
     line-height: var(--lh-xl);
+    margin-right: 45px;
   }
 
   .btn--banner {
     width: 22%;
+    padding: 12px 24px;
     font-size: var(--fs-hd-4);
     line-height: var(--lh-xl);
   }
