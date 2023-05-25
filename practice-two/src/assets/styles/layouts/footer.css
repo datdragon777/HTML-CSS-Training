@@ -10,8 +10,12 @@
   color: var(--primary-color);
 }
 
-.footer__item {
+.footer__item .item__link {
   cursor: pointer;
+}
+
+.footer__item .item__link:hover {
+  color: var(--dynamic-color);
 }
 
 .footer__list .footer__item:last-child {
