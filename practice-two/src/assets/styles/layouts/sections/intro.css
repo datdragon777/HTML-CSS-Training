@@ -34,7 +34,6 @@
 @media only screen and (min-width: 320px) {
   .intro {
     padding-top: 62px;
-    padding-bottom: 20px;
   }
 
   .intro__box {
@@ -107,6 +106,7 @@
 @media only screen and (min-width: 1200px) {
   .intro__box {
     background-size: 62%;
+    aspect-ratio: 2.06/1;
   }
 
   .intro__title {
