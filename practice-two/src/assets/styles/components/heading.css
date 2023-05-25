@@ -24,7 +24,7 @@
   }
 
   .heading--another {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     font-size: 1.625rem;
     line-height: var(--lh-hd-03);
   }
@@ -32,6 +32,10 @@
   .heading--card {
     line-height: var(--lh-hd-04);
     font-size: var(--fs-hd-3);
+  }
+
+  .heading--brand {
+    width: 230px;
   }
 
   .heading--planning {
@@ -57,11 +61,11 @@
   }
 
   .heading--form {
-    padding: 0 60px;
+    width: 470px;
   }
 
   .heading--brand {
-    padding: 0 184px;
+    width: 245px;
   }
 
   .heading--planning {
@@ -82,8 +86,12 @@
     margin-bottom: 50px;
   }
 
+  .heading--form {
+    width: 810px;
+  }
+
   .heading--brand {
-    padding: 0 250px;
+    width: 420px;
   }
 
   .heading--planning {
