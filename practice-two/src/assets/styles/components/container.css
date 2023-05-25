@@ -16,7 +16,7 @@
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
   .container {
-    margin: 0;
+    margin: 0 30px;
     max-width: 709px;
   }
 }
@@ -24,6 +24,7 @@
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
   .container {
+    margin: 0 45px;
     max-width: 1090px;
   }
 }
