@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 16px;
+    margin-right: 12px;
     padding: 5px;
     border-bottom: 3px solid transparent;
     border-top: 3px solid transparent;
@@ -60,6 +60,7 @@
   }
 
   .navbar__item {
+    margin-right: 16px;
     padding-bottom: 6px;
     border-bottom: 5px solid transparent;
     border-top: 5px solid transparent;
