@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
 .navbar__img {
@@ -18,6 +19,11 @@
 
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
+  .navbar__logo {
+    width: 155px;
+    height: 26px;
+  }
+
   .navbar__list {
     display: none;
   }
@@ -55,6 +61,11 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .navbar__logo {
+    width: 270px;
+    height: 45px;
+  }
+
   .navbar__list {
     font-size: 1.063rem;
   }
