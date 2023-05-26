@@ -12,7 +12,7 @@
 [Figma](https://www.figma.com/file/tst5tL3prGZKHCP9ASqnHl/NinjaMail-(Community)-(Community)?type=design&node-id=1-362&t=SIFv7b0c0t7jazuv-0)
 
 ## Deploy:
-[Here](https://aesthetic-caramel-090675.netlify.app/)
+[Here](https://delightful-cuchufli-71a816.netlify.app/)
 
 ## Information: ##
 - Time line: 15/05/2023 -> 00/05/2023
