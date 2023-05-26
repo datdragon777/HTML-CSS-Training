@@ -15,12 +15,9 @@
 
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
-  .heading--mb {
-    margin-bottom: 21px;
-  }
-
   .heading--banner {
     font-size: 1.4rem;
+    margin-bottom: 21px;
   }
 
   .heading--another {
@@ -43,16 +40,12 @@
     line-height: var(--lh-hd-01);
     margin-bottom: 28px;
   }
-
 }
 
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
   .heading--banner {
     font-size: 2.375rem;
-  }
-
-  .heading--mb {
     margin-bottom: 41px;
   }
 
