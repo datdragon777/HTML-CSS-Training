@@ -26,11 +26,11 @@
   .heading--another {
     margin-bottom: 16px;
     font-size: 1.625rem;
-    line-height: var(--lh-hd-03);
+    line-height: var(--lh-hd-02);
   }
 
   .heading--card {
-    line-height: var(--lh-hd-04);
+    line-height: var(--lh-hd-03);
     font-size: var(--fs-hd-3);
   }
 
