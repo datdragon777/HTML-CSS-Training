@@ -65,7 +65,6 @@
   .member__desc {
     font-size: var(--fs-md);
   }
-
 }
 
 /* Landscape tablets (Medium devices) */
@@ -78,7 +77,6 @@
   .member {
     margin-bottom: 0;
   }
-
 }
 
 /* Laptops/desktops (Large devices) */
