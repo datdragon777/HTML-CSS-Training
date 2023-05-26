@@ -68,7 +68,7 @@
   }
 
   .term__text {
-    line-height: var(--lh-xs);
+    line-height: var(--lh-sm);
     margin-bottom: 28px;
   }
 
