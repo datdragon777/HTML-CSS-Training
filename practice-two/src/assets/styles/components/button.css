@@ -2,6 +2,7 @@
   color: var(--secondary-color);
   border: 3px solid var(--dynamic-color);
   background-color: var(--dynamic-color);
+  font-family: var(--font-secondary);
   text-transform: uppercase;
   font-weight: var(--fw-bolder);
   white-space: nowrap;
