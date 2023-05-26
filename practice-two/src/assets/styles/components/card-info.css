@@ -132,7 +132,6 @@
 
   .card__link {
     font-size: 1rem;
-    line-height: var();
   }
 
   .card:last-child .card__body {
