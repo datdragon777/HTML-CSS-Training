@@ -100,14 +100,6 @@
     min-height: 390px;
     margin-bottom: 64px;
   }
-
-  .card:first-child {
-    align-self: flex-start;
-  }
-
-  .card:nth-child(2) {
-    align-self: flex-end;
-  }
 }
 
 /* Laptops/desktops (Large devices) */
