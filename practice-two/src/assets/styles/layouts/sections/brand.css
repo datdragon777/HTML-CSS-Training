@@ -50,8 +50,15 @@
 
   .brand__logos {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 20px;
+  }
+
+  .logo__item {
+    width: auto;
+    margin: 0 25px;
   }
 }
 
