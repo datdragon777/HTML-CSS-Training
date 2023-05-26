@@ -28,7 +28,6 @@
   padding: 3px 11px;
 }
 
-
 .btn--banner {
   background-color: var(--secondary-color);
   color: var(--dynamic-color);
@@ -52,7 +51,6 @@
 @media only screen and (min-width: 576px) {
   .btn__box {
     display: flex;
-    /* justify-content: space-between; */
   }
 
   .btn--intro {
