@@ -1,8 +1,5 @@
 .intro {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .intro__content {
@@ -26,8 +23,8 @@
 .intro__box {
   background-image: url(../../../images/header.png);
   background-repeat: no-repeat;
-  aspect-ratio: 1.78/1;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* Portrait tablets and large phones (Small devices) */
@@ -38,6 +35,7 @@
 
   .intro__box {
     background-size: 100% auto;
+    aspect-ratio: 1.78/1;
   }
 
   .intro__heading {
@@ -77,6 +75,10 @@
     padding: 0;
   }
 
+  .intro__content {
+    padding: 0;
+  }
+
   .intro__title {
     width: 100%;
     position: static;
@@ -85,6 +87,7 @@
 
   .intro__box {
     background-size: 68%;
+    aspect-ratio: 1.98/1;
     box-shadow: none;
     background-position-x: right;
     background-position-y: center;
@@ -104,6 +107,11 @@
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .intro__content {
+    padding: 0 140px;
+    padding-top: 35px;
+  }
+
   .intro__box {
     background-size: 62%;
     aspect-ratio: 2.06/1;
