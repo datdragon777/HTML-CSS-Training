@@ -43,9 +43,10 @@ practice-two
                 |-- card-member.css
                 |-- container.css
                 |-- heading.css
+                |-- main-background.css
                 |-- navbar.css
             |-- core
-                |-- index.css
+                |-- core.css
             |-- layouts
                 |-- sections
                     |-- all.css
