@@ -10,10 +10,19 @@
   color: var(--primary-color);
 }
 
+.footer__list {
+  margin-bottom: 7px;
+}
+
+.footer__cover {
+  display: flex;
+}
+
 .footer__item .item__link {
   cursor: pointer;
 }
 
+.term__link:hover,
 .footer__item .item__link:hover {
   color: var(--dynamic-color);
 }
@@ -43,7 +52,8 @@
   }
 
   .footer__logo {
-    max-width: 52%;
+    width: 150px;
+    height: 19px;
     margin-bottom: 20px;
   }
 
@@ -52,6 +62,10 @@
     grid-template-columns: auto auto;
     font-size: var(--fs-md);
     line-height: var(--lh-sm);
+  }
+
+  .footer__cover {
+    flex-direction: column;
   }
 
   .footer__item {
@@ -95,6 +109,11 @@
 
   .footer__info {
     display: flex;
+    gap: 35px;
+  }
+
+  .footer__cover {
+    flex-direction: row;
     gap: 35px;
   }
 
