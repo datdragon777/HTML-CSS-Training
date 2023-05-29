@@ -1,8 +1,5 @@
 .brand {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .brand__logos {
@@ -15,7 +12,8 @@
 /* Portrait tablets and large phones (Small devices) */
 @media only screen and (min-width: 320px) {
   .brand {
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
 
   .brand__logos {
@@ -44,8 +42,8 @@
 /* Landscape tablets (Medium devices) */
 @media only screen and (min-width: 576px) {
   .brand {
-    margin-top: 30px;
-    margin-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 110px;
   }
 
   .brand__logos {
@@ -57,11 +55,20 @@
   }
 
   .logo__item {
-    width: auto;
-    margin: 0 25px;
+    width: 104px;
+    height: 31px;
   }
 }
 
 /* Laptops/desktops (Large devices) */
 @media only screen and (min-width: 1200px) {
+  .brand {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+  .logo__item {
+    width: 160px;
+    height: 44px;
+  }
 }
