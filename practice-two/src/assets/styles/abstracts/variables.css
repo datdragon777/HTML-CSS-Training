@@ -14,13 +14,17 @@
   --fw-bolder: 900;
 
   /* Colors */
-  --cl-white: #FFF;
+  --cl-white: #fff;
   --cl-black: #000;
-  --cl-green: #4BA87D;
+  --cl-green: #4ba87d;
+  --cl-border: #9f9f9f;
+  --cl-background: #dbdbdb;
 
-  --primary-color: var(--cl-black);
-  --secondary-color: var(--cl-white);
-  --dynamic-color: var(--cl-green);
+  --primary-color: var(--cl-green);
+  --secondary-color: var(--cl-black);
+  --white-color: var(--cl-white);
+  --border-color: var(--cl-border);
+  --line-color: var(--cl-background);
 
   /* Font Sizes */
   --fs-sm: 0.563rem; /* 9px */

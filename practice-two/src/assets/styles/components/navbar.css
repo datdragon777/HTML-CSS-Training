@@ -38,7 +38,7 @@
   .navbar__list {
     display: block;
     display: flex;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: var(--fw-bold);
     text-transform: uppercase;
     font-size: var(--fs-xm);
@@ -55,7 +55,7 @@
   }
 
   .navbar__item:hover {
-    border-bottom: 3px solid var(--dynamic-color);
+    border-bottom: 3px solid var(--primary-color);
   }
 }
 
@@ -78,6 +78,6 @@
   }
 
   .navbar__item:hover {
-    border-bottom: 5px solid var(--dynamic-color);
+    border-bottom: 5px solid var(--primary-color);
   }
 }

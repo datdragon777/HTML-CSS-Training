@@ -34,7 +34,7 @@
   position: absolute;
   bottom: 12px;
   left: 20px;
-  color: var(--secondary-color);
+  color: var(--white-color);
   font-family: var(--font-secondary);
   z-index: 2;
 }

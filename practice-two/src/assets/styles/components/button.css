@@ -1,7 +1,7 @@
 .btn {
-  color: var(--secondary-color);
-  border: 3px solid var(--dynamic-color);
-  background-color: var(--dynamic-color);
+  color: var(--white-color);
+  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
   font-family: var(--font-secondary);
   text-transform: uppercase;
   font-weight: var(--fw-bolder);
@@ -12,23 +12,23 @@
 .btn:hover {
   cursor: pointer;
   transition: 0.3s;
-  background-color: var(--secondary-color);
-  color: var(--dynamic-color);
+  background-color: var(--white-color);
+  color: var(--primary-color);
 }
 
 .btn--hover {
   cursor: pointer;
   transition: 0.3s;
-  background-color: var(--secondary-color);
-  color: var(--dynamic-color);
+  background-color: var(--white-color);
+  color: var(--primary-color);
   border: none;
   padding: 14px 23px;
 }
 
 .btn-hover-collapse {
-  background-color: var(--secondary-color);
-  color: var(--dynamic-color);
-  border: 3px solid var(--secondary-color);
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 3px solid var(--white-color);
 }
 
 /* Portrait tablets and large phones (Small devices) */

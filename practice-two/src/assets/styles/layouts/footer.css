@@ -7,7 +7,7 @@
 .footer__wrapper {
   width: 100%;
   font-weight: var(--fw-light);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .footer__list {
@@ -24,7 +24,7 @@
 
 .term__link:hover,
 .footer__item .item__link:hover {
-  color: var(--dynamic-color);
+  color: var(--primary-color);
 }
 
 .footer__list .footer__item:last-child {
@@ -42,7 +42,7 @@
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #DBDBDB;
+  background-color: var(--line-color);
 }
 
 /* Portrait tablets and large phones (Small devices) */

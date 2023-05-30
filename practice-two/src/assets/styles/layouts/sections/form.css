@@ -19,22 +19,22 @@
 
 .form__input {
   outline: none;
-  border: 1px solid #9F9F9F;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
-  background-color: var(--secondary-color);
+  background-color: var(--white-color);
 }
 
 .form__input,
 .form__input::placeholder {
   font-family: var(--font-secondary);
   font-weight: var(--fw-lighter);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .form__confirm {
   visibility: visible;
   margin: 7px 0;
-  color: var(--dynamic-color);
+  color: var(--primary-color);
   font-weight: var(--fw-lighter);
   font-size: var(--fs-md);
   line-height: var(--lh-sm);

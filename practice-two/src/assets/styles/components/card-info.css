@@ -22,7 +22,7 @@
 }
 
 .card__body {
-  background-color: var(--secondary-color);
+  background-color: var(--white-color);
   font-family: var(--font-secondary);
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
 }
 
 .card__text {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-weight: var(--fw-lighter);
   margin-bottom: 7px;
 }
@@ -38,7 +38,7 @@
 .card__link {
   display: block;
   font-weight: var(--fw-bold);
-  color: var(--dynamic-color);
+  color: var(--primary-color);
 }
 
 .desc--bg {
