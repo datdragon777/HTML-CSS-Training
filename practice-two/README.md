@@ -1,6 +1,6 @@
-# HTML-CSS-PRACTICE_TWO #
+# HTML CSS PRACTICE TWO #
 
-## Target: ##
+## Targets: ##
 - Apply CSS units
 - Using media queries for popular screen size
 - Apply flexbox layout
@@ -15,11 +15,11 @@
 [Here](https://delightful-cuchufli-71a816.netlify.app/)
 
 ## Information: ##
-- Time line: 15/05/2023 -> 00/05/2023
+- Time line: 15/05/2023 -> 30/05/2023
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
 
-## Environment: ##
+## Environments: ##
 - Node: v18.14.1
 - Parcel: v2.8.3
 
