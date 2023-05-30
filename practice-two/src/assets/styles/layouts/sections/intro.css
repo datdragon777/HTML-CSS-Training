@@ -16,7 +16,7 @@
   height: auto;
 }
 
-.intro__sub--hidden {
+.intro__sub--collapse {
   display: none;
 }
 
@@ -52,13 +52,10 @@
 
   .intro__sub {
     margin: 16px 0;
-  }
-
-  .intro__sub--show {
     display: none;
   }
 
-  .intro__sub--hidden {
+  .intro__sub--collapse {
     display: block;
   }
 
@@ -96,11 +93,11 @@
     align-items: center;
   }
 
-  .intro__sub--show {
+  .intro__sub {
     display: block;
   }
 
-  .intro__sub--hidden {
+  .intro__sub--collapse {
     display: none;
   }
 }
