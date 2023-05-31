@@ -53,7 +53,7 @@
 
   .footer__logo {
     width: 150px;
-    height: 19px;
+    height: auto;
     margin-bottom: 20px;
   }
 
