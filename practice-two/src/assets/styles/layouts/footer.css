@@ -1,0 +1,163 @@
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__wrapper {
+  width: 100%;
+  font-weight: var(--fw-light);
+  color: var(--secondary-color);
+}
+
+.footer__list {
+  margin-bottom: 7px;
+}
+
+.footer__cover {
+  display: flex;
+}
+
+.footer__item .item__link {
+  cursor: pointer;
+}
+
+.term__link:hover,
+.footer__item .item__link:hover {
+  color: var(--primary-color);
+}
+
+.footer__list .footer__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__term {
+  display: flex;
+  width: 100%;
+  font-weight: var(--fw-light);
+}
+
+.footer__term::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--line-color);
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .footer-content {
+    padding: 50px 0;
+  }
+
+  .footer__logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .footer__info {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: var(--fs-md);
+    line-height: var(--lh-sm);
+  }
+
+  .footer__cover {
+    flex-direction: column;
+  }
+
+  .footer__item {
+    margin-bottom: 7px;
+  }
+
+  .footer__term {
+    flex-direction: column;
+    font-size: var(--fs-sm);
+  }
+
+  .footer__term::before {
+    margin: 23px 0;
+  }
+
+  .term__text {
+    line-height: var(--lh-sm);
+    margin-bottom: 28px;
+  }
+
+  .term__item {
+    margin-bottom: 9px;
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer__logo {
+    width: 150px;
+  }
+
+  .footer__logo .logo__img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footer__info {
+    display: flex;
+    gap: 35px;
+  }
+
+  .footer__cover {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .footer__term {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+  }
+
+  .footer__term::before {
+    grid-column: 1 / span 2;
+  }
+
+  .term__text {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .term__option {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .term__item {
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+/* Laptops/desktops (Large devices) */
+@media only screen and (min-width: 1200px) {
+  .footer__info {
+    font-size: 1.188rem;
+    line-height: 1.375rem;
+    gap: 60px;
+  }
+
+  .footer__logo {
+    width: 200px;
+  }
+
+  .footer__term {
+    font-size: var(--fs-xx-lg);
+    line-height: var(--lh-lg);
+  }
+}

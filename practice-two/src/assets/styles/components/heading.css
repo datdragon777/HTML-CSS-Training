@@ -1,0 +1,97 @@
+.heading {
+  font-family: var(--font-primary);
+  color: var(----secondary-color);
+  font-weight: var(--fw-bolder);
+  line-height: 3.25rem;
+}
+
+.heading--collapse {
+  color: var(--white-color);
+  text-align: center;
+}
+
+.w-25,
+.w-75 {
+  color: var(----secondary-color);
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .heading--lg {
+    font-size: 1.4rem;
+    margin-bottom: 21px;
+  }
+
+  .heading--xl {
+    margin-bottom: 16px;
+    font-size: 1.625rem;
+    line-height: var(--lh-hd-02);
+  }
+
+  .heading--md {
+    line-height: var(--lh-hd-03);
+    font-size: var(--fs-hd-3);
+  }
+
+  .w-25 {
+    width: 230px;
+  }
+
+  .heading--2xl {
+    font-size: var(--fs-hd-1);
+    line-height: var(--lh-hd-01);
+    margin-bottom: 28px;
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+  .heading--lg {
+    font-size: 2.375rem;
+    margin-bottom: 41px;
+  }
+
+  .heading--xl {
+    font-size: var(--fs-hd-3);
+    margin-bottom: 30px;
+  }
+
+  .w-75 {
+    width: 470px;
+  }
+
+  .w-25 {
+    width: 245px;
+  }
+
+  .heading--2xl {
+    margin-bottom: 46px;
+  }
+}
+
+/* Laptops/desktops (Large devices) */
+@media only screen and (min-width: 1200px) {
+  .heading--lg {
+    font-size: 3.75rem;
+    line-height: 5rem;
+  }
+
+  .heading--xl {
+    font-size: 3rem;
+    line-height: var(--lh-hd-01);
+    margin-bottom: 50px;
+  }
+
+  .w-75 {
+    width: 810px;
+  }
+
+  .w-25 {
+    width: 420px;
+  }
+
+  .heading--2xl {
+    font-size: 3.75rem;
+    line-height: 5rem;
+  }
+}

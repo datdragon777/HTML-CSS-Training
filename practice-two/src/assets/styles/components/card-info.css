@@ -1,0 +1,142 @@
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card__header {
+  width: 100%;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card__body {
+  background-color: var(--white-color);
+  font-family: var(--font-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__text {
+  color: var(--secondary-color);
+  font-weight: var(--fw-lighter);
+  margin-bottom: 7px;
+}
+
+.card__link {
+  display: block;
+  font-weight: var(--fw-bold);
+  color: var(--primary-color);
+}
+
+.desc--bg {
+  background: none;
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .cards {
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card:first-child {
+    align-self: flex-start;
+  }
+
+  .card:nth-child(2) {
+    align-self: flex-end;
+  }
+
+  .card:last-child {
+    align-self: center;
+    box-shadow: none;
+
+  }
+
+  .card__body {
+    padding: 17px 20px;
+  }
+
+  .desc--bg {
+    padding: 0;
+    margin-top: 17px;
+  }
+
+  .card__text {
+    font-size: var(--fs-md);
+    line-height: var(--lh-md);
+  }
+
+  .card__link {
+    font-size: 1rem;
+    line-height: var(--fs-xl);
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+  .cards {
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: nowrap;
+    min-height: 390px;
+    margin-bottom: 64px;
+  }
+}
+
+/* Laptops/desktops (Large devices) */
+@media only screen and (min-width: 1200px) {
+  .cards {
+    gap: 47px;
+    min-height: 550px;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .card__body {
+    padding: 24px 30px;
+  }
+
+  .card__text {
+    font-size: 1rem;
+    line-height: var(--lh-xl);
+  }
+
+  .card__link {
+    font-size: 1rem;
+  }
+
+  .card:last-child .card__body {
+    padding: 0;
+  }
+
+  .card:last-child .heading--card {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .card:last-child .card__body .card__text {
+    font-size: 1.188rem;
+    line-height: var(--lh-xl);
+  }
+}
