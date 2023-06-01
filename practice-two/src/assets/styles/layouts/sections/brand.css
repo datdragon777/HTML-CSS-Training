@@ -18,7 +18,9 @@
 
   .brand__logos {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 104px 104px;
+    grid-template-rows: 31px 31px;
+    /* grid-template-columns: auto auto; */
     gap: 1rem;
   }
 
@@ -27,7 +29,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .logo__item:last-child:nth-child(odd) {
