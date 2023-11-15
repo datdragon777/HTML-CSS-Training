@@ -1,0 +1,73 @@
+.data__main-chart {
+  width: 448.55px;
+  height: 331.21px;
+  padding: 24.16px 24.16px 0px 24.16px;
+  position: relative;
+  border: var(--box-outline);
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+.main-chart__title {
+  margin-bottom: 16px;
+  font-family: "Inter-medium";
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  color: var(--clr-primary);
+}
+
+.data__milestone-of-user {
+  width: 100%;
+  padding: 18px 0 18px 0;
+  border-bottom: 0.5px dashed var(--blue-100);
+}
+
+.data__milestone-of-user,
+.data__month {
+  font-family: "Inter-regular";
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-x-sm);
+  color: var(--blue-500);
+}
+
+.data__month-axis {
+  position: absolute;
+  top: 83px;
+  left: 73px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.data__hour-item {
+  margin-right: 41.84px;
+  text-align: center;
+}
+
+.data__column {
+  width: 25.16px;
+  margin-bottom: 11.76px;
+  border-radius: 4px 4px 0 0;
+}
+
+.data__column--blue {
+  height: 165px;
+  background-color: var(--blue-300);
+}
+
+.data__column--light-red {
+  height: 223.25px;
+  background-color: var(--pink-200);
+}
+
+.data__column--yellow {
+  height: 81.75px;
+  background-color: var(--yellow-100);
+}
+.data__column--orange {
+  height: 51.36px;
+  background-color: var(--orange-200);
+}
+.data__column--light-orange {
+  height: 30.4px;
+  background-color: var(--orange-300);
+}

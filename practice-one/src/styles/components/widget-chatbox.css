@@ -1,0 +1,52 @@
+.widget__chatbox {
+  padding: 32px;
+  position: absolute;
+  bottom: -8px;
+  right: -16px;
+  border: var(--box-outline);
+  border-radius: 4px;
+  background-color: var(--white);
+}
+
+.widget__user {
+  display: flex;
+}
+
+.widget__image {
+  margin-right: 10px;
+}
+
+.widget__role {
+  font-family: "Inter-regular";
+  font-size: var(--fs-xx-sm);
+  line-height: var(--lh-xx-sm);
+  color: var(--blue-500);
+}
+
+.widget__textarea {
+  margin: 16px 0;
+  padding: 16px 37px 119px 16px;
+  border: 1px solid var(--blue-100);
+  border-radius: 4px;
+}
+
+.widget__typing {
+  width: 246px;
+  font-family: "Inter-regular";
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-x-lg);
+  color: var(--blue-500);
+}
+
+.widget__submit {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.widget__send-btn {
+  padding: 14px 29px 15px;
+  font-size: var(--fs-x-sm);
+  line-height: var(--lh-x-sm);
+  background: var(--blue-400);
+  border: none;
+}

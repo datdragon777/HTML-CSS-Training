@@ -1,0 +1,79 @@
+.mitigation__wrapper {
+  padding: 100px 0 20px 0;
+}
+
+.mitigation__title {
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.mitigation__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mitigation__item {
+  width: 316px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mitigation__item:nth-child(2) {
+  flex-basis: 230px;
+}
+
+.mitigation__item:nth-child(5) {
+  flex-basis: 231px;
+}
+
+.mitigation__holder {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.mitigation__sub-title {
+  margin: 24px 0 8px 0;
+  font-family: "Inter-semibold";
+  font-size: var(--fs-h3);
+  line-height: var(--lh-lg);
+  color: var(--clr-primary);
+}
+
+.mitigation__description {
+  font-family: "Inter-regular";
+  font-size: var(--fs-md);
+  line-height: var(--lh-xx-lg);
+  color: var(--blue-500);
+}
+
+.mitigation__holder--first {
+  background-color: var(--orange);
+}
+
+.mitigation__holder--second {
+  background-color: var(--green-200);
+}
+
+.mitigation__holder--third {
+  background-color: var(--pink);
+}
+
+.mitigation__holder--fourth {
+  background-color: var(--pink-100);
+}
+
+.mitigation__holder--fifth {
+  background-color: var(--purple-100);
+}
+
+.mitigation__holder--sixth {
+  background-color: var(--orange-100);
+}
+
+

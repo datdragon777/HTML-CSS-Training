@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Inter-regular";
+  src: url("../../assets/fonts/inter-regular.ttf");
+  font-weight: var(--fw-regular);
+}
+
+@font-face {
+  font-family: "Inter-medium";
+  src: url("../../assets/fonts/inter-medium.ttf");
+  font-weight: var(--fw-medium);
+}
+
+@font-face {
+  font-family: "Inter-semibold";
+  src: url("../../assets/fonts/inter-semibold.ttf");
+  font-weight: var(--fw-semibold);
+}
+
+@font-face {
+  font-family: "Inter-bold";
+  src: url("../../assets/fonts/inter-bold.ttf");
+  font-weight: var(--fw-bold);
+}

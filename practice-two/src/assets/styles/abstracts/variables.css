@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800;900&display=swap');
+
+:root {
+  /* Font Families */
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Raleway", sans-serif;
+
+  /* Font Weight */
+  --fw-lighter: 500;
+  --fw-light: 700;
+  --fw-bold: 800;
+  --fw-bolder: 900;
+
+  /* Colors */
+  --cl-white: #fff;
+  --cl-black: #000;
+  --cl-green: #4ba87d;
+  --cl-border: #9f9f9f;
+  --cl-background: #dbdbdb;
+
+  --primary-color: var(--cl-green);
+  --secondary-color: var(--cl-black);
+  --white-color: var(--cl-white);
+  --border-color: var(--cl-border);
+  --line-color: var(--cl-background);
+
+  /* Font Sizes */
+  --fs-sm: 0.563rem; /* 9px */
+  --fs-xm: 0.688rem; /* 11px */
+  --fs-md: 0.75rem; /* 12px */
+  --fs-lg: 0.813rem; /* 13px */
+  --fs-xl: 0.875rem; /* 14px */
+  --fs-xx-lg: 1rem; /* 16px */
+  /* Font Sizes Heading */
+  --fs-hd-4: 1.375rem; /* 22px */
+  --fs-hd-3: 1.75rem; /* 28px */
+  --fs-hd-2: 2.25rem; /* 36px */
+  --fs-hd-1: 2.625rem; /* 42px */
+
+  /* Line Height */
+  --lh-sm: 0.688rem; /* 11px */
+  --lh-md: 1rem; /* 16px */
+  --lh-lg: 1.188rem; /* 19px */
+  --lh-xl: 1.625rem; /* 26px */
+  /* Line Height Heading */
+  --lh-hd-03: 1.938rem; /* 31px */
+  --lh-hd-02: 2.25rem; /* 36px */
+  --lh-hd-01: 3rem; /* 48px */
+}

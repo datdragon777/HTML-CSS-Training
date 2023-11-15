@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice-one</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+
+    <!-- Start Header -->
+    <header class="header">
+      <div class="header__bg">
+        <img class="header__img" src="./assets/images/ellipse.png" alt="background">
+      </div>
+      <div class="container">
+        <nav class="header__nav navbar">
+          <div class="navbar__brand">
+            <a href="javascript:void(0)" class="navbar__logo">
+              <img src="./assets/images/team.flow.png" alt="team.flow" class="navbar__img">
+            </a>
+          </div>
+          <ul class="navbar__body">
+            <li class="navbar__item navbar__item--small">
+              <a href="javascript:void(0)" class="navbar__link">How it Works</a>
+              <img src="./assets/icons/arrow-down-icon.svg" class="navbar__icon" alt="arrow down" />
+            </li>
+            <li class="navbar__item navbar__item--small">
+              <a href="javascript:void(0)" class="navbar__link">Product</a>
+              <img src="./assets/icons/arrow-down-icon.svg" class="navbar__icon" alt="arrow down" />
+            </li>
+            <li class="navbar__item navbar__item--small">
+              <a href="javascript:void(0)" class="navbar__link">Pricing</a>
+            </li>
+            <li class="navbar__item navbar__item--small">
+              <a href="javascript:void(0)" class="navbar__link">Resources</a>
+              <img src="./assets/icons/arrow-down-icon.svg" class="navbar__icon" alt="arrow down" />
+            </li>
+          </ul>
+          <div class="navbar__auth">
+            <div class="navbar__item navbar__item--small">
+              <a href="javascript:void(0)" class="navbar__link">Log in</a>
+            </div>
+            <div  class="navbar__item navbar__item--big">
+              <a href="javascript:void(0)" class="navbar__link">Get started free</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main Content -->
+    <main class="main-content">
+      <!-- Start Hero Layout -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__header">
+            <div class="hero__discount">
+              <div class="hero__choose"><p class="choose__text">Save 90%</p></div>
+              <div class="hero__get-account">
+                <p class="get-account__text">Get account of $59</p>
+                <img src="./assets/icons/arrow-right-icon.svg" alt="arrow right" class="get-account__icon"/>
+              </div>
+            </div>
+
+            <h1 class="hero__title">
+              Manage the team everyone wants to be on
+            </h1>
+
+            <div class="hero__description">
+              Simple platform that lets you master what great managers do best,
+              as develop trust, collaborate, and drive team performance.
+            </div>
+
+            <form class="hero__form">
+              <input
+                type="email"
+                placeholder="name@yourcompany.com"
+                class="hero__input"
+              />
+              <div class="hero__btn">
+                <button type="submit" class="btn hero__submit">Try it free</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="hero__body">
+            <img src="./assets/images/main-img.png" alt="overview chart" class="hero__bg-image"/>
+          </div>
+
+          <div class="hero__footer">
+            <p class="hero__trust">
+              trusted by over <span class="trust__number">10.000+</span> world's best teams
+            </p>
+            <div class="hero__logos">
+              <img src="./assets/icons/google-icon.svg" alt="google" class="logo__item"/>
+              <img src="./assets/icons/airbnb-icon.svg" alt="airbnb" class="logo__item"/>
+              <img src="./assets/icons/facebook-icon.svg" alt="facebook" class="logo__item"/>
+              <img src="./assets/icons/hubspot-icon.svg" alt="hubspot" class="logo__item"/>
+              <img src="./assets/icons/slack-icon.svg" alt="slack" class="logo__item"/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Hero Layout -->
+
+      <!-- Start Widget Layout -->
+      <section class="widget secondary-background">
+        <div class="container">
+          <div class="widget__wrapper">
+            <div class="widget__notification">
+              <!-- Start Widget Timeline -->
+              <div class="widget__timeline">
+                <div class="widget__title">Timeline</div>
+                <div class="widget__message-sets">
+                  <div class="widget__status">
+                    <div class="widget__icon widget__icon--message-bg">
+                      <img
+                        src="./assets/icons/yellow-message-icon.svg"
+                        alt="icon__message-bg"
+                        class="icon__message"
+                      />
+                    </div>
+                    <div class="widget__info">
+                      <div class="widget__name">Benchmarking</div>
+                      <div class="widget__time-sent">
+                        sent to Densise on 06/02/2020
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="widget__message-container "
+                  >
+                    <div
+                      class="widget__vertical-line widget__vertical-line--long"
+                    ></div>
+                    <div class="widget__message-box">
+                      <div
+                        class="widget__message-item"
+                      >
+                        <span class="widget__tag-name">@Densise</span> Can we add three more analyses?
+                      </div>
+                      <div
+                        class="widget__message-item"
+                      >
+                        <span class="widget__tag-name">@Densise</span> Create a presentation with
+                        comparison tables
+                      </div>
+                      <div
+                        class="widget__message-item"
+                      >
+                        <span class="widget__tag-name">@Densise</span> Let's set up a meeting to present
+                        to the product manager.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget__message-sets">
+                  <div class="widget__status">
+                    <div class="widget__icon widget__icon--date-bg">
+                      <img
+                        src="./assets/icons/clock-meeting-icon.svg"
+                        alt="clock meeting icon"
+                        class="icon-clock"
+                      />
+                    </div>
+                    <div class="widget__info">
+                      <div class="widget__name">Meeting reminder</div>
+                      <div class="widget__time-sent">
+                        sent to Denise on 06/02/2020
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="widget__message-container"
+                  >
+                    <div
+                      class="widget__vertical-line widget__vertical-line--short"
+                    ></div>
+                    <div class="widget__message-box ">
+                      <div class="widget__message-item">
+                        <span class="widget__tag-name">@Densise</span> scheduling this conversation
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Widget Timeline -->
+              <!-- Start Widget Chatbox -->
+              <div class="widget__chatbox">
+                <div class="widget__user">
+                  <div class="widget__image">
+                    <img
+                      src="./assets/images/denise-silva.jpg"
+                      alt="denise-silva"
+                      class="image__user"
+                    />
+                  </div>
+                  <div class="widget__info">
+                    <div class="widget__name">Denise Silva</div>
+                    <div class="widget__role">Product Designer</div>
+                  </div>
+                </div>
+                <div class="widget__textarea">
+                  <p class="widget__typing"><span class="widget__tag-name">@Peter</span> Thanks for review!</p>
+                  <p class="widget__typing">I will review the comments and submit a new project.</p>
+                </div>
+                <div class="widget__submit">
+                  <button class="btn widget__send-btn">Send</button>
+                </div>
+              </div>
+              <!-- End Widget Chatbox -->
+            </div>
+            <!-- Start Widget Solution -->
+            <ul class="widget__solution-list">
+              <li class="widget__item">
+                <h3 class="widget__solution-name">Survey your team</h3>
+                <div class="widget-description">
+                  Powerful questions that get to the heart of how team members
+                  really feel.
+                </div>
+              </li>
+              <li class="widget__item">
+                <h3 class="widget__solution-name">Resolve issues quickly</h3>
+                <div class="widget-description">
+                  Anonymous messaging that connects managers and employees.
+                </div>
+              </li>
+              <li class="widget__item">
+                <h3 class="widget__solution-name">Plan your 1-on-1s</h3>
+                <div class="widget-description">
+                  Plan meetings together and give a stake employees and teams.
+                </div>
+              </li>
+              <li class="widget__item">
+                <h3 class="widget__solution-name">Track your progress</h3>
+                <div class="widget-description">
+                  Easy-to-read reports and sharable results help managers and
+                  teams.
+                </div>
+              </li>
+            </ul>
+            <!-- End Widget Solution -->
+          </div>
+        </div>
+      </section>
+      <!-- End Widget Layout -->
+
+      <!-- Start Mitigation Layout -->
+      <section class="mitigation primary-background">
+        <div class="container">
+          <div class="mitigation__wrapper">
+            <h2 class="mitigation__title title-layout">
+              Make your work easier
+            </h2>
+            <!-- Start Mitigation List -->
+            <ul class="mitigation__list">
+              <li class="mitigation__item">
+                <div
+                  class="mitigation__holder mitigation__holder--first"
+                >
+                  <img
+                    src="./assets/icons/team-surveys-and-reports.svg"
+                    alt="team surveys and reports"
+                    class="mitigation__icon"
+                  />
+                </div>
+                <h3 class="mitigation__sub-title">Team Surveys & Reports</h3>
+                <div class="mitigation__description">
+                  Short, anonymous surveys track your team’s needs weekly so you
+                  can focus.
+                </div>
+              </li>
+              <li class="mitigation__item">
+                <div
+                  class="mitigation__holder mitigation__holder--second"
+                >
+                  <img
+                    src="./assets/icons/collaborative.svg"
+                    alt="collaborative 1:1"
+                    class="mitigation__icon"
+                  />
+                </div>
+                <h3 class="mitigation__sub-title">Collaborative 1:1</h3>
+                <div class="mitigation__description">
+                  Build relationships by planning 1-on-1s and start meetings.
+                </div>
+              </li>
+              <li class="mitigation__item">
+                <div
+                  class="mitigation__holder mitigation__holder--third"
+                >
+                  <img
+                    src="./assets/icons/learning-center.svg"
+                    alt="learning center"
+                    class="mitigation__icon"
+                  />
+                </div>
+                <h3 class="mitigation__sub-title">Learning Center</h3>
+                <div class="mitigation__description">
+                  Quickly get solutions tailored to your personal challenges
+                  from the manager.
+                </div>
+              </li>
+              <li class="mitigation__item">
+                <div
+                  class="mitigation__holder mitigation__holder--fourth"
+                >
+                  <img
+                    src="./assets/icons/anonymous-messaging.svg"
+                    alt="anonymous messaging"
+                    class="mitigation__icon"
+                  />
+                </div>
+                <h3 class="mitigation__sub-title">Anonymous Messaging</h3>
+                <div class="mitigation__description">
+                  Develop trust in a safe channel for important conversations.
+                </div>
+              </li>
+              <li class="mitigation__item">
+                <div
+                  class="mitigation__holder mitigation__holder--fifth"
+                >
+                  <img
+                    src="./assets/icons/conversation-engine.svg"
+                    alt="conversation engine"
+                    class="mitigation__icon"
+                  />
+                </div>
+                <h3 class="mitigation__sub-title">Conversation Engine</h3>
+                <div class="mitigation__description">
+                  Communicate confidently with recommended talking points.
+                </div>
+              </li>
+              <li class="mitigation__item">
+                <div
+                  class="mitigation__holder mitigation__holder--sixth"
+                >
+                  <img
+                    src="./assets/icons/exclusives-manager.svg"
+                    alt="Exclusives Manager"
+                    class="mitigation__icon"
+                  />
+                </div>
+                <h3 class="mitigation__sub-title">Exclusives Manager</h3>
+                <div class="mitigation__description">
+                  Access manager tips, activities and best practices from our
+                  team of experts.
+                </div>
+              </li>
+            </ul>
+            <!-- End Mitigation List -->
+          </div>
+        </div>
+      </section>
+      <!-- End Mitigation Layout -->
+
+      <!-- Start Data Layout -->
+      <section class="data secondary-background">
+        <div class="container">
+          <div class="data__wrapper">
+            <!-- Start Data Introduction -->
+            <div class="data__introduce">
+              <h2 class="data__title title-layout">
+                We work how you work everyday
+              </h2>
+              <div class="data__description">
+                Since the easiest things to use actually get used, we adapts to
+                the way your team works – not the other way around.
+              </div>
+              <button type="button" class="btn data__btn">Get started free</button>
+            </div>
+            <!-- End Data Introduction -->
+            <!-- Start Data Charts -->
+            <div class="data__charts">
+              <!-- Start Hours Worked Chart -->
+              <div class="data__main-chart">
+                <div class="main-chart__title">Hours worked</div>
+                <!-- Start Vertical Axix -->
+                <ul class="data__total-axis">
+                  <li class="data__milestone-of-user">400</li>
+                  <li class="data__milestone-of-user">300</li>
+                  <li class="data__milestone-of-user">200</li>
+                  <li class="data__milestone-of-user">100</li>
+                  <li class="data__milestone-of-user">0</li>
+                </ul>
+                <!-- End Vertical Axis -->
+                <!-- Start Horizontal Axis -->
+                <ul class="data__month-axis">
+                  <li class="data__hour-item">
+                    <div class="data__column data__column--blue"></div>
+                    <span class="data__month">Jan</span>
+                  </li>
+                  <li class="data__hour-item">
+                    <div class="data__column data__column--light-red"></div>
+                    <span class="data__month">Feb</span>
+                  </li>
+                  <li class="data__hour-item">
+                    <div class="data__column data__column--yellow"></div>
+                    <span class="data__month">Mar</span>
+                  </li>
+                  <li class="data__hour-item">
+                    <div class="data__column data__column--orange"></div>
+                    <span class="data__month">Apr</span>
+                  </li>
+                  <li class="data__hour-item">
+                    <div class="data__column data__column--light-orange"></div>
+                    <span class="data__month">May</span>
+                  </li>
+                </ul>
+                <!-- End Horizontal Axis -->
+              </div>
+              <!-- End Hours Worked Chart -->
+              <!-- Start Launched Projects Chart -->
+              <div class="data__sub-chart">
+                <div class="sub-chart__title">Launched Projects</div>
+                <ul class="data__number-of-project">
+                  <li
+                    class="data__project-item data__project-item--jan"
+                    number-projects="46"
+                    data-month="Feb"
+                  ></li>
+                  <li
+                    class="data__project-item data__project-item--feb"
+                    number-projects="46"
+                    data-month="Jan"
+                  ></li>
+                  <li
+                    class="data__project-item data__project-item--mar"
+                    number-projects="29"
+                    data-month="Mar"
+                  ></li>
+                  <li
+                    class="data__project-item data__project-item--apr"
+                    number-projects="35"
+                    data-month="Apr"
+                  ></li>
+                  <li
+                    class="data__project-item data__project-item--may"
+                    number-projects="26"
+                    data-month="May"
+                  ></li>
+                </ul>
+              </div>
+              <!-- End Launched Projects Chart -->
+            </div>
+            <!-- End Data Charts -->
+          </div>
+        </div>
+      </section>
+      <!-- End Data Layout -->
+
+      <!-- Start Commercial Layout -->
+      <section class="commercial primary-background">
+        <div class="container">
+          <div class="commercial__wrapper">
+            <div class="commercial__intro">
+              <h2 class="commercial__title">
+                Why customers love working with us
+              </h2>
+              <div class="commercial__description">
+                <p class="commercial__comment">“It's amazing what has helped me learn about my team.</p>
+                <p class="commercial__comment">
+                  I don't worry about blindspots anymore, and 1-on-1s have never
+                  been more productive. The team loves it.”
+                </p>
+              </div>
+            </div>
+            <ul class="commercial__users">
+              <li class="commercial__item">
+                <img
+                  src="./assets/images/jorge-robertson.jpg"
+                  alt="Jorge Robertson"
+                  class="commercial__logo-user"
+                />
+                <div class="commercial__info">
+                  <div class="commercial__name">Jorge Robertson</div>
+                  <div class="commercial__role">CS at Google</div>
+                </div>
+              </li>
+              <li class="commercial__item">
+                <img
+                  src="./assets/images/francisco-bell.jpg"
+                  alt="Francisco Bell"
+                  class="commercial__logo-user"
+                />
+                <div class="commercial__info">
+                  <div class="commercial__name">Francisco Bell</div>
+                  <div class="commercial__role">Designer at Microsoft</div>
+                </div>
+              </li>
+              <li class="commercial__item">
+                <img
+                  src="./assets/images/beth-fox.jpg"
+                  alt="Beth Fox"
+                  class="commercial__logo-user"
+                />
+                <div class="commercial__info">
+                  <div class="commercial__name">Beth Fox</div>
+                  <div class="commercial__role">Developer at Airbnb</div>
+                </div>
+              </li>
+            </ul>
+            <div class="commercial__info-download">
+              <div class="commercial__text">
+                84% of employees who use trust their direct manager
+              </div>
+              <div class="commercial__download-container">
+                <a href="javascript:void(0)" class="commercial__download-btn"
+                  ><img
+                    src="./assets/icons/google-play-white.svg"
+                    alt="google play"
+                    class="commercial__img"
+                /></a>
+                <a href="javascript:void(0)" class="commercial__download-btn"
+                  ><img
+                    src="./assets/icons/app-store-white.svg"
+                    alt="app store"
+                    class="commercial__img"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Commercial Layout -->
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Start Footer -->
+    <footer class="footer dark-background">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__info">
+            <div class="footer__title">Company</div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">About Us</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Blog</a><li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Careers</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__info">
+            <div class="footer__title">Support</div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Help Center</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Safety Center</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer__info">
+            <div class="footer__title">Legal</div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Privacy Policy</a></li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Terms of</a> Service</li>
+              <li class="footer__item"><a href="javascript:void(0)" class="footer__link">Cookies Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__info">
+            <div class="footer__title">Install App</div>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="javascript:void(0)" class="footer__download-btn"
+                  ><img
+                    src="./assets/icons/google-play-black.svg"
+                    alt="google play"
+                    class="footer__img"
+                /></a>
+              </li>
+              <li class="footer__item footer__app-store">
+                <a href="javascript:void(0)" class="footer__download-btn"
+                  ><img
+                    src="./assets/icons/app-store-black.svg"
+                    alt="app store"
+                    class="footer__img"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__line"></div>
+      <div class="container">
+        <div class="footer__terms">
+          <div class="footer__terms-text">
+            &#169; 2020 - All rights reserved
+          </div>
+          <ul class="footer__terms-logos">
+            <li class="footer__logo-item">
+              <img src="./assets/icons/instagram-icon.svg" alt="instagram" class="footer__logo-img"/>
+            </li>
+            <li class="footer__logo-item">
+              <img src="./assets/icons/duke-icon.svg" alt="duke" class="footer__logo-img"/>
+            </li>
+            <li class="footer__logo-item">
+              <img src="./assets/icons/twitter-icon.svg" alt="twitter" class="footer__logo-img"/>
+            </li>
+            <li class="footer__logo-item">
+              <img src="./assets/icons/youtube-icon.svg" alt="youtube" class="footer__logo-img" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>

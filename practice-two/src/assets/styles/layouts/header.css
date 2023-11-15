@@ -1,0 +1,19 @@
+.header-content {
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+/* Portrait tablets and large phones (Small devices) */
+@media only screen and (min-width: 320px) {
+  .header-content {
+    padding-top: 15px;
+    padding-bottom: 22px;
+  }
+}
+
+/* Landscape tablets (Medium devices) */
+@media only screen and (min-width: 576px) {
+  .header-content {
+    padding: 23px 0;
+  }
+}

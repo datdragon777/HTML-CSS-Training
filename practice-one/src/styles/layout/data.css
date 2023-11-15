@@ -1,0 +1,35 @@
+.data {
+  border: 1px solid var(--white-100);
+}
+
+.data__wrapper {
+  padding: 67px 0;
+  display: flex;
+  align-items: center;
+}
+
+.data__introduce {
+  width: 413px;
+  margin-right: 90px;
+}
+
+.data__description {
+  margin: 24px 0 32px 0;
+  font-family: "Inter-regular";
+  font-size: var(--fs-md);
+  line-height: var(--lh-xx-lg);
+  color: var(--blue-500);
+}
+
+.data__btn {
+  padding: 18px 21px;
+  background-color: var(--purple-300);
+  border: none;
+  cursor: pointer;
+}
+
+.data__charts {
+  width: 596.39px;
+  height: 404.68px;
+  position: relative;
+}

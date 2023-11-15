@@ -1,0 +1,9 @@
+.btn {
+  font-family: "Inter-medium";
+  font-size: var(--fs-md);
+  line-height: var(--lh-md);
+  border-radius: 4px;
+  color: var(--white);
+}
+
+
